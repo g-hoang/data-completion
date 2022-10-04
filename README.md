@@ -42,7 +42,7 @@ Please give further configuration in the bash file `./scripts/finetune_seq2seq.s
 
 - Before running experiment on seq2seq models, please set up a directory containing 3 required files for seq2seq models: `config.json`, `pytorch_model.bin` and `tokenizer.json`.
 
-- A recommended directory: `./data/models/closed-book/{schema_org_class}/{training_data_type}/`
+- A recommended directory: `./data/models/closed-book/{training_data_type}/{schema_org_class}/`
 
 - For running experiment, please run the script `./scripts/run_experiment.sh` with the equivalent config file located inside `./scripts/configs/` directory. The `model_name` parameter should be set as a list of path to directories containing the models
 
