@@ -1,0 +1,42 @@
+---
+ general:
+   evidence_count: 100
+   save_results_with_evidences: True
+   es_instance: 'wifo5-33.informatik.uni-mannheim.de'
+
+ query-tables:
+    schema_org_class: 'movie'
+    category: null
+    path-to-query-table: null
+    context-attributes: ['name', 'datePublished']
+    target-attributes: ['director']
+
+ pipelines:
+   retrieval-strategies:
+     -
+        name: 'query_by_entity'
+     -
+        name: 'query_by_goldstandard'
+
+   similarity-re-ranking-strategies:
+     -
+        name: null
+     -
+        name: 'huggingface_re_ranker'
+        model_name: 'finetuned_cross_encoder-bert-base-uncased-localbusiness_new'
+     -
+        name: 'magellan_re_ranker'
+        model_name: 'RF'
+
+
+   source-re-ranking-strategies:
+     -
+         name: null
+     -
+        name: 'page_rank_re_ranker'
+
+   voting-strategies:
+      -
+        name: simple
+      -
+        name: weighted

@@ -1,0 +1,379 @@
+{
+  "id": 304,
+  "type": "augmentation",
+  "assemblingStrategy": "Collection of tail entities from ubereats.com",
+  "gtTable": "Ubereats Com",
+  "schemaOrgClass": "localbusiness",
+  "contextAttributes": [
+    "addresslocality",
+    "addresscountry",
+    "postalcode",
+    "name",
+    "postalcode"
+  ],
+  "table": [
+    {
+      "name": "Le Factory - Cergy",
+      "addresscountry": "FR",
+      "postalcode": "95800",
+      "streetaddress": "14 Cours des Merveilles",
+      "addresslocality": "Cergy",
+      "entityId": 0
+    },
+    {
+      "name": "La Scaleta - Tours centre",
+      "addresslocality": "Tours",
+      "streetaddress": "32 Avenue de Grammont",
+      "addresscountry": "FR",
+      "postalcode": "37000",
+      "entityId": 1
+    },
+    {
+      "name": "Caf\u00e9 Mareva",
+      "postalcode": "75011",
+      "addresscountry": "FR",
+      "addresslocality": "Paris",
+      "streetaddress": "38 Rue du Faubourg du Temple",
+      "entityId": 2
+    },
+    {
+      "name": "L\u00e9on de Bruxelles - Eragny Sur Oise",
+      "addresscountry": "FR",
+      "postalcode": "95610",
+      "addresslocality": "\u00c9ragny",
+      "streetaddress": "1 Rue des Erables",
+      "entityId": 3
+    },
+    {
+      "name": "Line Sushi - Nancy",
+      "streetaddress": "9 Rue des 4 \u00c9glises",
+      "addresscountry": "FR",
+      "addresslocality": "Nancy",
+      "postalcode": "54000",
+      "entityId": 4
+    },
+    {
+      "name": "La Place",
+      "addresscountry": "FR",
+      "postalcode": "76000",
+      "addresslocality": "Rouen",
+      "streetaddress": "26 Place du Vieux March\u00e9",
+      "entityId": 5
+    },
+    {
+      "name": "Foyer Vietnam - Cantine Associative",
+      "addresscountry": "FR",
+      "postalcode": "75005",
+      "addresslocality": "Paris",
+      "streetaddress": "80 rue Monge",
+      "entityId": 6
+    },
+    {
+      "name": "Le Semper Fi",
+      "addresscountry": "FR",
+      "postalcode": "74000",
+      "addresslocality": "Annecy",
+      "streetaddress": "13 Rue Royale, Passage des Sorbiers",
+      "entityId": 7
+    },
+    {
+      "name": "Grill Courtepaille - Nancy Laxou",
+      "postalcode": "54520",
+      "addresscountry": "FR",
+      "addresslocality": "Laxou",
+      "streetaddress": "Courtepaille",
+      "entityId": 8
+    },
+    {
+      "name": "Emilie Sushi Bar",
+      "addresscountry": "FR",
+      "streetaddress": "36, rue Emile Gebhart",
+      "addresslocality": "Nancy",
+      "postalcode": "54000",
+      "entityId": 9
+    },
+    {
+      "name": "Burger Fernand",
+      "addresscountry": "FR",
+      "addresslocality": "Grenoble",
+      "postalcode": "38000",
+      "streetaddress": "124 Cours Berriat",
+      "entityId": 10
+    },
+    {
+      "name": "Narenj",
+      "streetaddress": "178 Rue de Bourgogne",
+      "addresscountry": "FR",
+      "addresslocality": "Orl\u221a\u00a9ans",
+      "postalcode": "45000",
+      "entityId": 11
+    },
+    {
+      "name": "Le Glacier Franchi",
+      "addresscountry": "FR",
+      "postalcode": "67000",
+      "streetaddress": "5 Rue des Francs-Bourgeois",
+      "addresslocality": "Strasbourg",
+      "entityId": 12
+    },
+    {
+      "name": "Le Limoncello",
+      "postalcode": "67200",
+      "addresscountry": "FR",
+      "streetaddress": "29 Route des Romains",
+      "addresslocality": "Strasbourg",
+      "entityId": 13
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 0,
+      "queryTableId": 304,
+      "entityId": 0,
+      "table": "restaurant_lefactory-cergy.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "14 Bis, Cours des Merveilles,",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 1,
+      "queryTableId": 304,
+      "entityId": 1,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 841,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "30 avenue de Grammont",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 2,
+      "queryTableId": 304,
+      "entityId": 2,
+      "table": "restaurant_oubruncher.com_september2020.json.gz",
+      "rowId": 788,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "38, rue du Faubourg-du-Temple",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 3,
+      "queryTableId": 304,
+      "entityId": 2,
+      "table": "restaurant_timeout.fr_september2020.json.gz",
+      "rowId": 497,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "38 Rue du Faubourg du Temple",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 4,
+      "queryTableId": 304,
+      "entityId": 3,
+      "table": "restaurant_leon-de-bruxelles.fr_september2020.json.gz",
+      "rowId": 30,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "Rue Des Erables, 1",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 5,
+      "queryTableId": 304,
+      "entityId": 3,
+      "table": "restaurant_leon-de-bruxelles.fr_september2020.json.gz",
+      "rowId": 45,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "Rue Des Erables, 1",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 6,
+      "queryTableId": 304,
+      "entityId": 4,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 2467,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "9 Rue des 4 \u00c9glises",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 7,
+      "queryTableId": 304,
+      "entityId": 5,
+      "table": "restaurant_gaultmillau.com_september2020.json.gz",
+      "rowId": 3801,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "26 pl Vieux-March\u00e9",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 8,
+      "queryTableId": 304,
+      "entityId": 5,
+      "table": "restaurant_viamichelin.at_september2020.json.gz",
+      "rowId": 99,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "26 place du Vieux-March\u00e9",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 9,
+      "queryTableId": 304,
+      "entityId": 6,
+      "table": "restaurant_timeout.com_september2020.json.gz",
+      "rowId": 1163,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "80 rue Monge",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 10,
+      "queryTableId": 304,
+      "entityId": 7,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 579,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "13 Rue Royale Passage des Sorbiers",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 11,
+      "queryTableId": 304,
+      "entityId": 7,
+      "table": "restaurant_gaultmillau.com_september2020.json.gz",
+      "rowId": 5090,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "13 rue Royale",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 12,
+      "queryTableId": 304,
+      "entityId": 8,
+      "table": "restaurant_courtepaille.com_september2020.json.gz",
+      "rowId": 109,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "1, Rue de la Vezouze",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 13,
+      "queryTableId": 304,
+      "entityId": 9,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 445,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "36 Rue Emile Gebhart",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 14,
+      "queryTableId": 304,
+      "entityId": 10,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 3219,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "124 cours Berriat",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 15,
+      "queryTableId": 304,
+      "entityId": 11,
+      "table": "restaurant_lefooding.com_september2020.json.gz",
+      "rowId": 47,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "178, rue de Bourgogne",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 16,
+      "queryTableId": 304,
+      "entityId": 11,
+      "table": "restaurant_platderesistance.fr_september2020.json.gz",
+      "rowId": 86,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "178 Rue De Bourgogne",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 17,
+      "queryTableId": 304,
+      "entityId": 12,
+      "table": "restaurant_resto.fr_september2020.json.gz",
+      "rowId": 994,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "rue des Francs Bourgeois null",
+      "attribute": "streetaddress"
+    },
+    {
+      "id": 18,
+      "queryTableId": 304,
+      "entityId": 13,
+      "table": "restaurant_restovisio.com_september2020.json.gz",
+      "rowId": 145,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": null,
+      "value": "29 route des Romains",
+      "attribute": "streetaddress"
+    }
+  ],
+  "targetAttribute": "streetaddress",
+  "useCase": "streetaddress of tail entities from ubereats.com"
+}

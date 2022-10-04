@@ -1,0 +1,500 @@
+{
+  "id": 600,
+  "type": "retrieval",
+  "assemblingStrategy": "Ihg hotels in the US",
+  "gtTable": "Ihg Com",
+  "schemaOrgClass": "localbusiness",
+  "contextAttributes": [
+    "addresslocality",
+    "addressregion",
+    "postalcode",
+    "name",
+    "streetaddress"
+  ],
+  "table": [
+    {
+      "addresscountry": "US",
+      "addresslocality": "Atlanta",
+      "addressregion": "Georgia",
+      "entityId": 0,
+      "name": "Hotel Indigo Atlanta Downtown",
+      "postalcode": "30303",
+      "streetaddress": "230 Peachtree Street NE"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Dallas",
+      "addressregion": "Texas",
+      "entityId": 1,
+      "name": "Hotel Indigo Dallas Downtown",
+      "postalcode": "75201",
+      "streetaddress": "1933 Main Street"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Asheville",
+      "addressregion": "North Carolina",
+      "entityId": 2,
+      "name": "Hotel Indigo Asheville Downtown",
+      "postalcode": "28801",
+      "streetaddress": "151 Haywood Street"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Oak Ridge",
+      "addressregion": "Tennessee",
+      "entityId": 3,
+      "name": "Holiday Inn Express & Suites Knoxville West - Oak Ridge",
+      "postalcode": "37830",
+      "streetaddress": "114 Tulsa Road"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Grand Rapids",
+      "addressregion": "Michigan",
+      "entityId": 4,
+      "name": "Holiday Inn Express & Suites Grand Rapids - Airport North",
+      "postalcode": "49546",
+      "streetaddress": "5405 28th St Court SE"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Raleigh",
+      "addressregion": "North Carolina",
+      "entityId": 5,
+      "name": "Holiday Inn Express & Suites Raleigh NE - Medical Ctr Area",
+      "postalcode": "27610",
+      "streetaddress": "3618 New Bern Avenue"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Raleigh",
+      "addressregion": "North Carolina",
+      "entityId": 6,
+      "name": "Holiday Inn Express & Suites Raleigh Airport - Brier Creek",
+      "postalcode": "27617",
+      "streetaddress": "10450 Little Brier Creek Lane"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Raleigh",
+      "addressregion": "North Carolina",
+      "entityId": 7,
+      "name": "Holiday Inn Express & Suites Raleigh North - Wake Forest",
+      "postalcode": "27614",
+      "streetaddress": "11400 Common Oaks Drive"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Linthicum Heights",
+      "addressregion": "MARYLAND",
+      "entityId": 8,
+      "name": "Holiday Inn Express & Suites Baltimore - BWI Airport North",
+      "postalcode": "21090",
+      "streetaddress": "1510 Aero Drive"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Jackson",
+      "addressregion": "Tennessee",
+      "entityId": 9,
+      "name": "Holiday Inn Express & Suites Jackson Northeast",
+      "postalcode": "38305",
+      "streetaddress": "55 Parkstone Place"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Chattanooga",
+      "addressregion": "Tennessee",
+      "entityId": 10,
+      "name": "Holiday Inn Express & Suites Chattanooga Downtown",
+      "postalcode": "37402",
+      "streetaddress": "440 W. Martin Luther King Blvd."
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Fort Collins",
+      "addressregion": "Colorado",
+      "entityId": 11,
+      "name": "Holiday Inn Express & Suites Ft. Collins",
+      "postalcode": "80525",
+      "streetaddress": "1426 Oakridge Drive"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Brunswick",
+      "addressregion": "Maryland",
+      "entityId": 12,
+      "name": "Holiday Inn Express & Suites Brunswick - Harpers Ferry Area",
+      "postalcode": "21716",
+      "streetaddress": "1501 Village Green Way"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Dayton",
+      "addressregion": "Ohio",
+      "entityId": 13,
+      "name": "Holiday Inn Express & Suites Dayton SW - University Area",
+      "postalcode": "45417",
+      "streetaddress": "2140 South Edwin C Moses Boulevard"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Cedar Springs",
+      "addressregion": "Michigan",
+      "entityId": 14,
+      "name": "Holiday Inn Express & Suites Cedar Springs - Grand Rapids N",
+      "postalcode": "49319",
+      "streetaddress": "14190 White Creek Avenue NE"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Columbia",
+      "addressregion": "Missouri",
+      "entityId": 15,
+      "name": "Holiday Inn Express & Suites Columbia Univ Area - Hwy 63",
+      "postalcode": "65201",
+      "streetaddress": "1402 Cinnamon Hill Lane"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Sylva",
+      "addressregion": "North Carolina",
+      "entityId": 16,
+      "name": "Holiday Inn Express & Suites Sylva - Western Carolina Area",
+      "postalcode": "28779",
+      "streetaddress": "26 Rufus Robinson Road"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Kansas City",
+      "addressregion": "Kansas",
+      "entityId": 17,
+      "name": "Holiday Inn Express Kansas City - at the Legends",
+      "postalcode": "66111",
+      "streetaddress": "1931 Prairie Crossing/Parallel"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Rochester",
+      "addressregion": "Minnesota",
+      "entityId": 18,
+      "name": "Holiday Inn Express & Suites Rochester - Mayo Clinic Area",
+      "postalcode": "55902",
+      "streetaddress": "155 16th Ave SW"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Raleigh",
+      "addressregion": "North Carolina",
+      "entityId": 19,
+      "name": "Holiday Inn Express & Suites Raleigh SW NC State",
+      "postalcode": "27606",
+      "streetaddress": "3741 Thistledown Drive"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Wilmington",
+      "addressregion": "North Carolina",
+      "entityId": 20,
+      "name": "Holiday Inn Express & Suites Wilmington West - Medical Park",
+      "postalcode": "28401",
+      "streetaddress": "839 Medical Center Drive"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Asheville",
+      "addressregion": "North Carolina",
+      "entityId": 21,
+      "name": "Holiday Inn Express & Suites Asheville SW - Outlet Ctr Area",
+      "postalcode": "28806",
+      "streetaddress": "12 Rocky Ridge Road"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "Maryville",
+      "addressregion": "Missouri",
+      "entityId": 22,
+      "name": "Holiday Inn Express & Suites Maryville",
+      "postalcode": "64468",
+      "streetaddress": "2929 South Main"
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 0,
+      "queryTableId": 600,
+      "entityId": 0,
+      "table": "localbusiness_hotspotsatlanta.com_september2020.json.gz",
+      "rowId": 93,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 1,
+      "queryTableId": 600,
+      "entityId": 1,
+      "table": "hotel_visitdallas.com_september2020.json.gz",
+      "rowId": 18,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 3,
+      "queryTableId": 600,
+      "entityId": 2,
+      "table": "localbusiness_exploreasheville.com_september2020.json.gz",
+      "rowId": 285,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 4,
+      "queryTableId": 600,
+      "entityId": 3,
+      "table": "localbusiness_tnvacation.com_september2020.json.gz",
+      "rowId": 156,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 5,
+      "queryTableId": 600,
+      "entityId": 4,
+      "table": "hotel_experiencegr.com_september2020.json.gz",
+      "rowId": 12,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 6,
+      "queryTableId": 600,
+      "entityId": 5,
+      "table": "hotel_raleighinn.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 7,
+      "queryTableId": 600,
+      "entityId": 6,
+      "table": "localbusiness_visitraleigh.com_september2020.json.gz",
+      "rowId": 1355,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 8,
+      "queryTableId": 600,
+      "entityId": 7,
+      "table": "localbusiness_visitraleigh.com_september2020.json.gz",
+      "rowId": 2087,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 9,
+      "queryTableId": 600,
+      "entityId": 8,
+      "table": "localbusiness_visitmaryland.org_september2020.json.gz",
+      "rowId": 426,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 10,
+      "queryTableId": 600,
+      "entityId": 9,
+      "table": "localbusiness_tnvacation.com_september2020.json.gz",
+      "rowId": 404,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 11,
+      "queryTableId": 600,
+      "entityId": 10,
+      "table": "hotel_visitchattanooga.com_september2020.json.gz",
+      "rowId": 22,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 12,
+      "queryTableId": 600,
+      "entityId": 11,
+      "table": "localbusiness_visitftcollins.com_september2020.json.gz",
+      "rowId": 57,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 13,
+      "queryTableId": 600,
+      "entityId": 12,
+      "table": "localbusiness_visitmaryland.org_september2020.json.gz",
+      "rowId": 2077,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 14,
+      "queryTableId": 600,
+      "entityId": 13,
+      "table": "localbusiness_greenecountyohio.org_september2020.json.gz",
+      "rowId": 285,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 15,
+      "queryTableId": 600,
+      "entityId": 14,
+      "table": "hotel_experiencegr.com_september2020.json.gz",
+      "rowId": 29,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 16,
+      "queryTableId": 600,
+      "entityId": 15,
+      "table": "localbusiness_visitmo.com_september2020.json.gz",
+      "rowId": 1340,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 17,
+      "queryTableId": 600,
+      "entityId": 16,
+      "table": "localbusiness_franklin-chamber.com_september2020.json.gz",
+      "rowId": 155,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 18,
+      "queryTableId": 600,
+      "entityId": 17,
+      "table": "localbusiness_visitkansascityks.com_september2020.json.gz",
+      "rowId": 41,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 19,
+      "queryTableId": 600,
+      "entityId": 17,
+      "table": "localbusiness_travelks.com_september2020.json.gz",
+      "rowId": 713,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 20,
+      "queryTableId": 600,
+      "entityId": 18,
+      "table": "localbusiness_experiencerochestermn.com_september2020.json.gz",
+      "rowId": 379,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 21,
+      "queryTableId": 600,
+      "entityId": 19,
+      "table": "localbusiness_visitraleigh.com_september2020.json.gz",
+      "rowId": 1855,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 22,
+      "queryTableId": 600,
+      "entityId": 20,
+      "table": "localbusiness_wilmingtonandbeaches.com_september2020.json.gz",
+      "rowId": 17,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 23,
+      "queryTableId": 600,
+      "entityId": 21,
+      "table": "localbusiness_exploreasheville.com_september2020.json.gz",
+      "rowId": 1035,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 24,
+      "queryTableId": 600,
+      "entityId": 22,
+      "table": "localbusiness_visitmo.com_september2020.json.gz",
+      "rowId": 1678,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 2,
+      "queryTableId": 600,
+      "entityId": 2,
+      "table": "localbusiness_exploreasheville.com_september2020.json.gz",
+      "rowId": 477,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+---
+ general:
+   indexing_batch_size: 64 # Batch size used for indexing
+   schema_org_class: 'localbusiness'
+   es_instance: 'wifo5-33.informatik.uni-mannheim.de'
+ bi_encoder_configuration:
+    name: 'huggingface_bi_encoder'
+    model_name: 'finetuned_cross_encoder-bert-base-uncased-localbusiness-name_addresslocality_addressregion_addresscountry_postalcode_streetaddress'
+    pooling: 'mean'
+    normalize: True
+    similarity_measure: 'cos'
+    dimensions: 768

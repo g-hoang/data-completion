@@ -1,0 +1,39 @@
+---
+ general:
+   evidence_count: 5
+   save_results_with_evidences: True
+   es_instance: 'wifo5-35.informatik.uni-mannheim.de' # Please maintain the URI of your VM here
+   experiment-type: 'augmentation'
+   clusters: False
+   training_data_type: 'origin' # 'origin' or 'descriptive' or 'natural_questions' - This field is used when a retrieval strategy = 'generate_entity'
+
+ query-tables:
+    category: null
+    gt-table: null
+    path-to-query-table: null
+    # schema_org_class: 'localbusiness'
+    # context-attributes: ['name', 'addresscountry', 'addresslocality', 'addressregion', 'postalcode', 'streetaddress', 'telephone'] # List of context attributes
+    # target-attributes: ['addresscountry', 'addresslocality', 'addressregion', 'postalcode', 'streetaddress', 'telephone'] # List of possible target attribute
+
+    schema_org_class: 'movie'
+    context-attributes: ['name', 'director', 'duration', 'datepublished'] # List of context attributes
+    target-attributes: ['director', 'duration', 'datepublished', 'isbasedon'] # List of possible target attributes
+
+ pipelines:
+   retrieval-strategies:
+    -
+       name: 'query_by_entity' # Run baseline
+   similarity-re-ranking-strategies:
+     -
+        name: null
+
+
+   source-re-ranking-strategies:
+     -
+         name: null
+
+   voting-strategies:
+      -
+        name: simple
+      -
+        name: weighted

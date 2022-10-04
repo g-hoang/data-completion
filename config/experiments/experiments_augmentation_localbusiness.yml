@@ -1,0 +1,196 @@
+---
+ general:
+   evidence_count: 100
+   save_results_with_evidences: True
+   es_instance: 'wifo5-33.informatik.uni-mannheim.de'
+   experiment-type: 'retrieval'
+   clusters: True
+
+ query-tables:
+    schema_org_class: 'localbusiness'
+    gt-table: null
+    path-to-query-table: null
+    context-attributes: ['name', 'addresslocality']
+    target-attributes: ['name', 'addresslocality']
+
+ pipelines:
+   retrieval-strategies:
+     -
+        name: 'query_by_entity'
+#     -
+#        name: 'query_by_goldstandard'
+     -
+        name: 'query_by_neural_entity'
+        bi-encoder: 'huggingface_bi_encoder'
+        # Choose pooling 'mean' or 'cls' for now
+        pooling: ['mean']
+        # Choose simialrities 'cos', 'f2' or 'ip' for now
+        similarity : ['cos']
+        model_name: ['roberta-base']
+        base_model: 'roberta-base'
+        with_projection: False
+
+     -
+       name: 'query_by_neural_entity'
+       bi-encoder: 'sbert_bi_encoder'
+       # Choose pooling 'mean' or 'cls' for now
+       pooling: [ 'mean' ]
+       # Choose simialrities 'cos', 'f2' or 'ip' for now
+       similarity: [ 'cos' ]
+       model_name: [ 'finetuned_sbert_roberta-base_mean_cosine_dense_localbusiness_subset_pairs']
+       base_model: 'roberta-base'
+       with_projection: True
+     -
+       name: 'query_by_neural_entity'
+       bi-encoder: 'supcon_bi_encoder'
+       # Choose pooling 'mean' or 'cls' for now
+       pooling: [ 'mean' ]
+       # Choose simialrities 'cos', 'f2' or 'ip' for now
+       similarity: [ 'cos' ]
+       model_name: [ 'contrastive-dense-localbusiness-1024-5e-04-0.007-400-roberta-base']
+       base_model: 'roberta-base'
+       with_projection: True
+
+     - name: 'query_by_neural_entity'
+       bi-encoder: 'supcon_bi_encoder'
+       # Choose pooling 'mean' or 'cls' for now
+       pooling: [ 'mean' ]
+       # Choose simialrities 'cos', 'f2' or 'ip' for now
+       similarity: [ 'cos' ]
+       model_name: [ 'contrastive-dense-localbusiness-1024-5e-04-0.007-400-xtremedistil-l12-h384-uncased' ]
+       base_model: 'microsoft/xtremedistil-l12-h384-uncased'
+       with_projection: True
+
+     - name: 'query_by_neural_entity'
+       bi-encoder: 'supcon_bi_encoder'
+       # Choose pooling 'mean' or 'cls' for now
+       pooling: [ 'mean' ]
+       # Choose simialrities 'cos', 'f2' or 'ip' for now
+       similarity: [ 'cos' ]
+       model_name: [ 'contrastive-dense-localbusiness-1024-5e-04-0.007--1-400-roberta-base' ]
+       base_model: 'roberta-base'
+       with_projection: False
+###
+     - name: 'combined_retrieval_strategy'
+       retrieval_strategy_1:
+        name: 'query_by_entity'
+       retrieval_strategy_2:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'supcon_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'contrastive-dense-localbusiness-1024-5e-04-0.007-400-roberta-base'
+         base_model: 'roberta-base'
+         with_projection: True
+
+     - name: 'combined_retrieval_strategy'
+       retrieval_strategy_1:
+         name: 'query_by_entity'
+       retrieval_strategy_2:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'supcon_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'contrastive-dense-localbusiness-1024-5e-04-0.007--1-400-roberta-base'
+         base_model: 'roberta-base'
+         with_projection: False
+
+     - name: 'combined_retrieval_strategy'
+       retrieval_strategy_1:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'sbert_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'finetuned_sbert_roberta-base_mean_cosine_dense_localbusiness_subset_pairs'
+         base_model: 'roberta-base'
+         with_projection: True
+       retrieval_strategy_2:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'supcon_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'contrastive-dense-localbusiness-1024-5e-04-0.007-400-roberta-base'
+         base_model: 'roberta-base'
+         with_projection: True
+
+     - name: 'combined_retrieval_strategy'
+       retrieval_strategy_1:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'sbert_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'finetuned_sbert_roberta-base_mean_cosine_dense_localbusiness_subset_pairs'
+         base_model: 'roberta-base'
+         with_projection: True
+       retrieval_strategy_2:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'supcon_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'contrastive-dense-localbusiness-1024-5e-04-0.007--1-400-roberta-base'
+         base_model: 'roberta-base'
+         with_projection: False
+
+     - name: 'combined_retrieval_strategy'
+       retrieval_strategy_1:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'supcon_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'contrastive-dense-localbusiness-1024-5e-04-0.007-400-roberta-base'
+         base_model: 'roberta-base'
+         with_projection: True
+       retrieval_strategy_2:
+         name: 'query_by_neural_entity'
+         bi-encoder: 'supcon_bi_encoder'
+         # Choose pooling 'mean' or 'cls' for now
+         pooling: 'mean'
+         # Choose simialrities 'cos', 'f2' or 'ip' for now
+         similarity: 'cos'
+         model_name: 'contrastive-dense-localbusiness-1024-5e-04-0.007--1-400-roberta-base'
+         base_model: 'roberta-base'
+         with_projection: False
+#
+
+   similarity-re-ranking-strategies:
+     -
+        name: null
+     -
+        name: 'huggingface_re_ranker'
+        # Supply only one cross encoder for now!
+        model_name: 'finetuned_cross_encoder-roberta-base-localbusiness-name_addresslocality'
+
+
+     -
+        name: 'magellan_re_ranker'
+        # Supply only one cross encoder for now!
+        model_name: 'RF'
+     -
+        name: 'symbolic_re_ranker'
+        similarity_measure: 'jaccard'
+
+   source-re-ranking-strategies:
+     -
+         name: null
+#     -
+#        name: 'page_rank_re_ranker'
+
+   voting-strategies:
+      -
+        name: simple
+#      -
+#        name: weighted

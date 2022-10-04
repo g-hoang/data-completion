@@ -1,0 +1,1983 @@
+{
+  "id": 500,
+  "type": "augmentation",
+  "assemblingStrategy": "Collection of movies used for comparison between TURL and seq2seq models",
+  "gtTable": "TURL vs seq2seq",
+  "schemaOrgClass": "movie",
+  "contextAttributes": [
+      "name",
+      "duration",
+      "datepublished"
+  ],
+  "table": [
+      {
+          "datepublished": "1938-12-15",
+          "director": "Edwin L. Marin",
+          "duration": "PT1H9M",
+          "entityId": 0,
+          "name": "A Christmas Carol"
+      },
+      {
+          "datepublished": "1951-12-01",
+          "director": "Brian Desmond Hurst",
+          "duration": "PT1H26M",
+          "entityId": 1,
+          "name": "A Christmas Carol"
+      },
+      {
+          "datepublished": "1971-12-20",
+          "director": "Richard Williams",
+          "duration": "PT28M",
+          "entityId": 2,
+          "name": "A Christmas Carol"
+      },
+      {
+          "datepublished": "1984-12-17",
+          "director": "Clive Donner",
+          "duration": "PT1H40M",
+          "entityId": 3,
+          "name": "A Christmas Carol"
+      },
+      {
+          "datepublished": "1999-12-05",
+          "director": "David Hugh Jones",
+          "duration": "PT1H35M",
+          "entityId": 4,
+          "name": "A Christmas Carol"
+      },
+      {
+          "datepublished": "2009-11-06",
+          "director": "Robert Zemeckis",
+          "duration": "PT1H36M",
+          "entityId": 5,
+          "name": "A Christmas Carol"
+      },
+      {
+          "datepublished": "2001-11-16",
+          "director": "Chris Columbus",
+          "duration": "PT2H47M",
+          "entityId": 6,
+          "name": "Harry Potter and the Sorcerer's Stone"
+      },
+      {
+          "datepublished": "2002-11-15",
+          "director": "Chris Columbus",
+          "duration": "PT2H41M",
+          "entityId": 7,
+          "name": "Harry Potter and the Chamber of Secrets"
+      },
+      {
+          "datepublished": "2004-06-04",
+          "director": "Alfonso Cuar\u00f3n",
+          "duration": "PT2H19M",
+          "entityId": 8,
+          "name": "Harry Potter and the Prisoner of Azkaban"
+      },
+      {
+          "datepublished": "2005-11-18",
+          "director": "Mike Newell",
+          "duration": "PT2H30M",
+          "entityId": 9,
+          "name": "Harry Potter and the Goblet of Fire"
+      },
+      {
+          "datepublished": "2007-07-11",
+          "director": "David Yates",
+          "duration": "PT2H18M",
+          "entityId": 10,
+          "name": "Harry Potter and the Order of the Phoenix"
+      },
+      {
+          "datepublished": "2009-07-15",
+          "director": "David Yates",
+          "duration": "PT2H33M",
+          "entityId": 11,
+          "name": "Harry Potter and the Half-Blood Prince"
+      },
+      {
+          "datepublished": "2010-11-19",
+          "director": "David Yates",
+          "duration": "PT2H26M",
+          "entityId": 12,
+          "name": "Harry Potter and the Deathly Hallows: Part 1"
+      },
+      {
+          "datepublished": "2011-07-15",
+          "director": "David Yates",
+          "duration": "PT2H10M",
+          "entityId": 13,
+          "name": "Harry Potter and the Deathly Hallows: Part 2"
+      },
+      {
+          "datepublished": "1990-11-09",
+          "director": "Kevin Costner",
+          "duration": "PT3H1M",
+          "entityId": 14,
+          "name": "Dances with Wolves"
+      },
+      {
+          "datepublished": "1991-02-14",
+          "director": "Jonathan Demme",
+          "duration": "PT1H58M",
+          "entityId": 15,
+          "name": "The Silence of the Lambs"
+      },
+      {
+          "datepublished": "1992-08-07",
+          "director": "Clint Eastwood",
+          "duration": "PT2H10M",
+          "entityId": 16,
+          "name": "Unforgiven"
+      },
+      {
+          "datepublished": "1993-12-15",
+          "director": "Steven Spielberg",
+          "duration": "PT3H15M",
+          "entityId": 17,
+          "name": "Schindler's List"
+      },
+      {
+          "datepublished": "1994-07-06",
+          "director": "Robert Zemeckis",
+          "duration": "PT2H22M",
+          "entityId": 18,
+          "name": "Forrest Gump"
+      },
+      {
+          "datepublished": "1995-05-24",
+          "director": "Mel Gibson",
+          "duration": "PT2H58M",
+          "entityId": 19,
+          "name": "Braveheart"
+      },
+      {
+          "datepublished": "1996-11-15",
+          "director": "Anthony Minghella",
+          "duration": "PT2H42M",
+          "entityId": 20,
+          "name": "The English Patient"
+      },
+      {
+          "datepublished": "1997-12-19",
+          "director": "James Cameron",
+          "duration": "PT3H14M",
+          "entityId": 21,
+          "name": "Titanic"
+      },
+      {
+          "datepublished": "1998-12-11",
+          "director": "John Madden",
+          "duration": "PT2H3M",
+          "entityId": 22,
+          "name": "Shakespeare in Love"
+      },
+      {
+          "datepublished": "1999-09-15",
+          "director": "Sam Mendes",
+          "duration": "PT2H2M",
+          "entityId": 23,
+          "name": "American Beauty"
+      },
+      {
+          "datepublished": "2000-05-05",
+          "director": "Ridley Scott",
+          "duration": "PT2H35M",
+          "entityId": 24,
+          "name": "Gladiator"
+      },
+      {
+          "datepublished": "2001-12-21",
+          "director": "Ron Howard",
+          "duration": "PT2H15M",
+          "entityId": 25,
+          "name": "A Beautiful Mind"
+      },
+      {
+          "datepublished": "2002-12-27",
+          "director": "Rob Marshall",
+          "duration": "PT1H53M",
+          "entityId": 26,
+          "name": "Chicago"
+      },
+      {
+          "datepublished": "2003-12-17",
+          "director": "Peter Jackson",
+          "duration": "PT3H21M",
+          "entityId": 27,
+          "name": "The Lord of the Rings: The Return of the King"
+      },
+      {
+          "datepublished": "2004-12-15",
+          "director": "Clint Eastwood",
+          "duration": "PT2H12M",
+          "entityId": 28,
+          "name": "Million Dollar Baby"
+      },
+      {
+          "datepublished": "2005-05-06",
+          "director": "Paul Haggis",
+          "duration": "PT1H52M",
+          "entityId": 29,
+          "name": "Crash"
+      },
+      {
+          "datepublished": "2006-10-06",
+          "director": "Martin Scorsese",
+          "duration": "PT2H1M",
+          "entityId": 30,
+          "name": "The Departed"
+      },
+      {
+          "datepublished": "2007-11-09",
+          "director": [
+              "Ethan Coen",
+              "Joel Coen"
+          ],
+          "duration": "PT2H2M",
+          "entityId": 31,
+          "name": "No Country for Old Men"
+      },
+      {
+          "datepublished": "2008-11-12",
+          "director": [
+              "Danny Boyle",
+              "Loveleen Tandan"
+          ],
+          "duration": "PT2H",
+          "entityId": 32,
+          "name": "Slumdog Millionaire"
+      },
+      {
+          "datepublished": "2009-06-26",
+          "director": "Kathryn Bigelow",
+          "duration": "PT2H11M",
+          "entityId": 34,
+          "name": "The Hurt Locker"
+      },
+      {
+          "datepublished": "2010-11-26",
+          "director": "Tom Hooper",
+          "duration": "PT1H58M",
+          "entityId": 35,
+          "name": "The King's Speech"
+      },
+      {
+          "datepublished": "2011-11-25",
+          "director": "Michel Hazanavicius",
+          "duration": "PT1H40M",
+          "entityId": 36,
+          "name": "The Artist"
+      },
+      {
+          "datepublished": "2013-11-08",
+          "director": "Steve McQueen",
+          "duration": "PT2H14M",
+          "entityId": 37,
+          "name": "12 Years a Slave"
+      },
+      {
+          "datepublished": "2014-10-17",
+          "director": "Alejandro G. I\u00f1\u00e1rritu",
+          "duration": "PT1H59M",
+          "entityId": 38,
+          "name": "Birdman or (The Unexpected Virtue of Ignorance)"
+      },
+      {
+          "datepublished": "2010-04-23",
+          "director": "Sylvain White",
+          "duration": "PT1H37M",
+          "entityId": 39,
+          "name": "The Losers"
+      },
+      {
+          "datepublished": "2010-07-16",
+          "director": "Christopher Nolan",
+          "duration": "PT2H28M",
+          "entityId": 40,
+          "name": "Inception"
+      },
+      {
+          "datepublished": "2010-08-13",
+          "director": "Edgar Wright",
+          "duration": "PT1H52M",
+          "entityId": 41,
+          "name": "Scott Pilgrim vs. the World"
+      },
+      {
+          "datepublished": "2010-02-19",
+          "director": "Martin Scorsese",
+          "duration": "PT2H18M",
+          "entityId": 42,
+          "name": "Shutter Island"
+      },
+      {
+          "datepublished": "2010-07-01",
+          "director": "M. Night Shyamalan",
+          "duration": "PT1H43M",
+          "entityId": 43,
+          "name": "The Last Airbender"
+      },
+      {
+          "datepublished": "2010-06-30",
+          "director": "David Slade",
+          "duration": "PT2H4M",
+          "entityId": 44,
+          "name": "The Twilight Saga: Eclipse"
+      },
+      {
+          "datepublished": "2010-06-25",
+          "director": "Dennis Dugan",
+          "duration": "PT1H42M",
+          "entityId": 45,
+          "name": "Grown Ups"
+      },
+      {
+          "datepublished": "2010-09-17",
+          "director": "Ben Affleck",
+          "duration": "PT2H5M",
+          "entityId": 46,
+          "name": "The Town"
+      },
+      {
+          "datepublished": "2010-05-07",
+          "director": "Jon Favreau",
+          "duration": "PT2H4M",
+          "entityId": 47,
+          "name": "Iron Man 2"
+      },
+      {
+          "datepublished": "2010-10-01",
+          "director": "David Fincher",
+          "duration": "PT2H",
+          "entityId": 48,
+          "name": "The Social Network"
+      },
+      {
+          "datepublished": "2010-03-26",
+          "director": "Steve Pink",
+          "duration": "PT1H41M",
+          "entityId": 49,
+          "name": "Hot Tub Time Machine"
+      },
+      {
+          "datepublished": "2010-08-06",
+          "director": "Rob Reiner",
+          "duration": "PT1H30M",
+          "entityId": 50,
+          "name": "Flipped"
+      },
+      {
+          "datepublished": "2010-03-05",
+          "director": "Tim Burton",
+          "duration": "PT1H48M",
+          "entityId": 51,
+          "name": "Alice in Wonderland"
+      },
+      {
+          "datepublished": "2010-05-14",
+          "director": "Ridley Scott",
+          "duration": "PT2H20M",
+          "entityId": 52,
+          "name": "Robin Hood"
+      },
+      {
+          "datepublished": "2010-06-18",
+          "director": "Lee Unkrich",
+          "duration": "PT1H43M",
+          "entityId": 53,
+          "name": "Toy Story 3"
+      },
+      {
+          "datepublished": "2010-04-16",
+          "director": "Matthew Vaughn",
+          "duration": "PT1H57M",
+          "entityId": 54,
+          "name": "Kick-Ass"
+      },
+      {
+          "datepublished": "2010-06-11",
+          "director": "Christopher Smith",
+          "duration": "PT1H42M",
+          "entityId": 55,
+          "name": "Black Death"
+      },
+      {
+          "datepublished": "2010-03-12",
+          "director": "Jim Field Smith",
+          "duration": "PT1H44M",
+          "entityId": 56,
+          "name": "She's Out of My League"
+      },
+      {
+          "datepublished": "2010-08-13",
+          "director": "Sylvester Stallone",
+          "duration": "PT1H43M",
+          "entityId": 57,
+          "name": "The Expendables"
+      },
+      {
+          "datepublished": "2010-09-01",
+          "director": "Anton Corbijn",
+          "duration": "PT1H45M",
+          "entityId": 58,
+          "name": "The American"
+      },
+      {
+          "datepublished": "2010-04-23",
+          "director": "Neil Marshall",
+          "duration": "PT1H37M",
+          "entityId": 59,
+          "name": "Centurion"
+      },
+      {
+          "datepublished": "2010-01-22",
+          "director": "Scott Stewart",
+          "duration": "PT1H40M",
+          "entityId": 60,
+          "name": "Legion"
+      },
+      {
+          "datepublished": "1994-09-23",
+          "director": "Frank Darabont",
+          "duration": "PT2H22M",
+          "entityId": 61,
+          "name": "The Shawshank Redemption"
+      },
+      {
+          "datepublished": "1969-03-10",
+          "director": "Francis Ford Coppola",
+          "duration": "PT2H55M",
+          "entityId": 62,
+          "name": "The Godfather"
+      },
+      {
+          "datepublished": "1974-12-20",
+          "director": "Francis Ford Coppola",
+          "duration": "PT3H22M",
+          "entityId": 63,
+          "name": "The Godfather: Part II"
+      },
+      {
+          "datepublished": "2008-07-18",
+          "director": "Christopher Nolan",
+          "duration": "PT2H32M",
+          "entityId": 64,
+          "name": "The Dark Knight"
+      },
+      {
+          "datepublished": "1957-04-10",
+          "director": "Sidney Lumet",
+          "duration": "PT1H35M",
+          "entityId": 65,
+          "name": "12 Angry Men"
+      },
+      {
+          "datepublished": "1994-10-14",
+          "director": "Quentin Tarantino",
+          "duration": "PT2H45M",
+          "entityId": 66,
+          "name": "Pulp Fiction"
+      },
+      {
+          "datepublished": "1966-12-23",
+          "director": "Sergio Leone",
+          "duration": "PT2H28M",
+          "entityId": 67,
+          "name": "The Good, the Bad and the Ugly"
+      },
+      {
+          "datepublished": "1999-09-10",
+          "director": "David Fincher",
+          "duration": "PT2H19M",
+          "entityId": 68,
+          "name": "Fight Club"
+      },
+      {
+          "datepublished": "2001-12-19",
+          "director": "Peter Jackson",
+          "duration": "PT2H58M",
+          "entityId": 69,
+          "name": "The Lord of the Rings: The Fellowship of the Ring"
+      },
+      {
+          "datepublished": "1980-05-21",
+          "director": "Irvin Kershner",
+          "duration": "PT2H4M",
+          "entityId": 70,
+          "name": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+          "datepublished": "1962-02-01",
+          "director": "Milo\u0161 Forman",
+          "duration": "PT2H13M",
+          "entityId": 71,
+          "name": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+          "datepublished": "2002-12-11",
+          "director": "Peter Jackson",
+          "duration": "PT2H59M",
+          "entityId": 72,
+          "name": "The Lord of the Rings: The Two Towers"
+      },
+      {
+          "datepublished": "1990-09-19",
+          "director": "Martin Scorsese",
+          "duration": "PT2H26M",
+          "entityId": 73,
+          "name": "Goodfellas"
+      },
+      {
+          "datepublished": "1999-03-31",
+          "director": ["Lana Wachowski", "Lilly Wachowski"],
+          "duration": "PT2H16M",
+          "entityId": 74,
+          "name": "The Matrix"
+      },
+      {
+          "datepublished": "1977-05-25",
+          "director": "George Lucas",
+          "duration": "PT2H1M",
+          "entityId": 75,
+          "name": "Star Wars"
+      },
+      {
+          "datepublished": "1954-04-26",
+          "director": "Akira Kurosawa",
+          "duration": "PT2H30M",
+          "entityId": 76,
+          "name": "Seven Samurai"
+      },
+      {
+          "datepublished": "2002-05-18",
+          "director": "Fernando Meirelles",
+          "duration": "PT2H10M",
+          "entityId": 77,
+          "name": "City of God"
+      },
+      {
+          "datepublished": "1995-09-22",
+          "director": "David Fincher",
+          "duration": "PT2H8M",
+          "entityId": 78,
+          "name": "Se7en"
+      },
+      {
+          "datepublished": "1995-08-16",
+          "director": "Bryan Singer",
+          "duration": "PT1H46M",
+          "entityId": 79,
+          "name": "The Usual Suspects"
+      },
+      {
+          "datepublished": "1946-12-20",
+          "director": "Frank Capra",
+          "duration": "PT2H10M",
+          "entityId": 80,
+          "name": "It's a Wonderful Life"
+      },
+      {
+          "datepublished": "1999-02-12",
+          "director": "Roberto Benigni",
+          "duration": "PT1H56M",
+          "entityId": 81,
+          "name": "Life Is Beautiful"
+      },
+      {
+          "datepublished": "1995-02-03",
+          "director": "Luc Besson",
+          "duration": "PT1H50M",
+          "entityId": 82,
+          "name": "L\u00e9on: The Professional"
+      },
+      {
+          "datepublished": "1969-06-06",
+          "director": "Sergio Leone",
+          "duration": "PT2H55M",
+          "entityId": 83,
+          "name": "Once Upon a Time in the West"
+      },
+      {
+          "datepublished": "2014-11-05",
+          "director": "Christopher Nolan",
+          "duration": "PT2H49M",
+          "entityId": 84,
+          "name": "Interstellar"
+      },
+      {
+          "datepublished": "1998-07-24",
+          "director": "Steven Spielberg",
+          "duration": "PT2H49M",
+          "entityId": 85,
+          "name": "Saving Private Ryan"
+      },
+      {
+          "datepublished": "2003-09-12",
+          "director": "Hayao Miyazaki",
+          "duration": "PT2H5M",
+          "entityId": 86,
+          "name": "Spirited Away"
+      },
+      {
+          "datepublished": "1999-03-26",
+          "director": "Tony Kaye",
+          "duration": "PT1H59M",
+          "entityId": 87,
+          "name": "American History X"
+      },
+      {
+          "datepublished": "1943-01-23",
+          "director": "Michael Curtiz",
+          "duration": "PT1H42M",
+          "entityId": 88,
+          "name": "Casablanca"
+      },
+      {
+          "datepublished": "1960-06-16",
+          "director": "Alfred Hitchcock",
+          "duration": "PT1H49M",
+          "entityId": 89,
+          "name": "Psycho"
+      },
+      {
+          "datepublished": "1931-01-30",
+          "director": "Charlie Chaplin",
+          "duration": "PT1H21M",
+          "entityId": 90,
+          "name": "City Lights"
+      },
+      {
+          "datepublished": "1981-07-30",
+          "director": "Steven Spielberg",
+          "duration": "PT1H55M",
+          "entityId": 91,
+          "name": "Raiders of the Lost Ark"
+      },
+      {
+          "datepublished": "1954-09-01",
+          "director": "Alfred Hitchcock",
+          "duration": "PT1H52M",
+          "entityId": 92,
+          "name": "Rear Window"
+      },
+      {
+          "datepublished": "1936-02-05",
+          "director": "Charlie Chaplin",
+          "duration": "PT1H27M",
+          "entityId": 93,
+          "name": "Modern Times"
+      },
+      {
+          "datepublished": "1996-08-29",
+          "director": "Frank Darabont",
+          "duration": "PT3H9M",
+          "entityId": 94,
+          "name": "The Green Mile"
+      },
+      {
+          "datepublished": "1991-08-16",
+          "director": "James Cameron",
+          "duration": "PT2H10M",
+          "entityId": 95,
+          "name": "Terminator 2: Judgment Day"
+      },
+      {
+          "datepublished": "2002-05-24",
+          "director": "Roman Polanski",
+          "duration": "PT2H30M",
+          "entityId": 96,
+          "name": "The Pianist"
+      },
+      {
+          "datepublished": "2000-10-14",
+          "director": "Christopher Nolan",
+          "duration": "PT1H53M",
+          "entityId": 97,
+          "name": "Memento"
+      },
+      {
+          "datepublished": "1985-07-03",
+          "director": "Robert Zemeckis",
+          "duration": "PT1H56M",
+          "entityId": 98,
+          "name": "Back to the Future"
+      },
+      {
+          "datepublished": "2001-08-03",
+          "director": "Francis Ford Coppola",
+          "duration": "PT2H33M",
+          "entityId": 99,
+          "name": "Apocalypse Now"
+      },
+      {
+          "datepublished": "1964-01-29",
+          "director": "Stanley Kubrick",
+          "duration": "PT1H35M",
+          "entityId": 100,
+          "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+          "datepublished": "2013-10-29",
+          "director": "Billy Wilder",
+          "duration": "PT1H55M",
+          "entityId": 101,
+          "name": "Sunset Blvd."
+      },
+      {
+          "datepublished": "2006-10-20",
+          "director": "Christopher Nolan",
+          "duration": "PT2H15M",
+          "entityId": 102,
+          "name": "The Prestige"
+      },
+      {
+          "datepublished": "1979-05-25",
+          "director": "James Cameron",
+          "duration": "PT1H57M",
+          "entityId": 103,
+          "name": "Alien"
+      },
+      {
+          "datepublished": "2003-08-22",
+          "director": "Charlie Chaplin",
+          "duration": "PT2H5M",
+          "entityId": 104,
+          "name": "The Great Dictator"
+      },
+      {
+          "datepublished": "2007-04-13",
+          "director": "Florian Henckel von Donnersmarck",
+          "duration": "PT2H17M",
+          "entityId": 105,
+          "name": "The Lives of Others"
+      },
+      {
+          "datepublished": "1990-02-23",
+          "director": "Giuseppe Tornatore",
+          "duration": "PT2H35M",
+          "entityId": 106,
+          "name": "Cinema Paradiso"
+      },
+      {
+          "datepublished": "1980-05-23",
+          "director": "Stanley Kubrick",
+          "duration": "PT2H26M",
+          "entityId": 107,
+          "name": "The Shining"
+      },
+      {
+          "datepublished": "2012-12-25",
+          "director": "Quentin Tarantino",
+          "duration": "PT2H45M",
+          "entityId": 108,
+          "name": "Django Unchained"
+      },
+      {
+          "datepublished": "1957-12-20",
+          "director": "Stanley Kubrick",
+          "duration": "PT1H26M",
+          "entityId": 109,
+          "name": "Paths of Glory"
+      },
+      {
+          "datepublished": "2012-07-20",
+          "director": "Christopher Nolan",
+          "duration": "PT2H45M",
+          "entityId": 110,
+          "name": "The Dark Knight Rises"
+      },
+      {
+          "datepublished": "2008-06-27",
+          "director": "Andrew Stanton",
+          "duration": "PT1H38M",
+          "entityId": 111,
+          "name": "WALL\u00b7E"
+      },
+      {
+          "datepublished": "1988-04-16",
+          "director": "Isao Takahata",
+          "duration": "PT1H29M",
+          "entityId": 112,
+          "name": "Grave of the Fireflies"
+      },
+      {
+          "datepublished": "1941-09-05",
+          "director": "Orson Welles",
+          "duration": "PT1H59M",
+          "entityId": 113,
+          "name": "Citizen Kane"
+      },
+      {
+          "datepublished": "1959-07-01",
+          "director": "Alfred Hitchcock",
+          "duration": "PT2H16M",
+          "entityId": 114,
+          "name": "North by Northwest"
+      },
+      {
+          "datepublished": "2003-11-21",
+          "director": "Park Chan-wook",
+          "duration": "PT2H",
+          "entityId": 115,
+          "name": "Oldboy"
+      },
+      {
+          "datepublished": "1997-07-12",
+          "director": "Hayao Miyazaki",
+          "duration": "PT2H29M",
+          "entityId": 116,
+          "name": "Princess Mononoke"
+      },
+      {
+          "datepublished": "1958-05-09",
+          "director": "Alfred Hitchcock",
+          "duration": "PT2H8M",
+          "entityId": 117,
+          "name": "Vertigo"
+      },
+      {
+          "datepublished": "1983-05-25",
+          "director": "Richard Marquand",
+          "duration": "PT2H11M",
+          "entityId": 118,
+          "name": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+          "datepublished": "1982-02-10",
+          "director": "Wolfgang Petersen",
+          "duration": "PT2H29M",
+          "entityId": 119,
+          "name": "The boat"
+      },
+      {
+          "datepublished": "1996-06-06",
+          "director": "Fritz Lang",
+          "duration": "PT1H57M",
+          "entityId": 120,
+          "name": "M"
+      },
+      {
+          "datepublished": "1984-06-01",
+          "director": "Sergio Leone",
+          "duration": "PT4H11M",
+          "entityId": 121,
+          "name": "Once Upon a Time in America"
+      },
+      {
+          "datepublished": "2015-06-19",
+          "director": "Pete Docter",
+          "duration": "PT1H35M",
+          "entityId": 122,
+          "name": "Inside Out"
+      },
+      {
+          "datepublished": "2001-08-12",
+          "director": "Jean-Pierre Jeunet",
+          "duration": "PT2H2M",
+          "entityId": 123,
+          "name": "Am\u00e9lie"
+      },
+      {
+          "datepublished": "1925-01-31",
+          "director": "Billy Wilder",
+          "duration": "PT1H56M",
+          "entityId": 124,
+          "name": "Witness for the Prosecution"
+      },
+      {
+          "datepublished": "1992-10-09",
+          "director": "Quentin Tarantino",
+          "duration": "PT1H39M",
+          "entityId": 125,
+          "name": "Reservoir Dogs"
+      },
+      {
+          "datepublished": "1971-12-19",
+          "director": "Stanley Kubrick",
+          "duration": "PT2H16M",
+          "entityId": 126,
+          "name": "A Clockwork Orange"
+      },
+      {
+          "datepublished": "2000-12-15",
+          "director": "Darren Aronofsky",
+          "duration": "PT1H42M",
+          "entityId": 127,
+          "name": "Requiem for a Dream"
+      },
+      {
+          "datepublished": "1976-02-09",
+          "director": "Martin Scorsese",
+          "duration": "PT1H54M",
+          "entityId": 128,
+          "name": "Taxi Driver"
+      },
+      {
+          "datepublished": "2005-11-11",
+          "director": "Billy Wilder",
+          "duration": "PT1H17M",
+          "entityId": 129,
+          "name": "Double Indemnity"
+      },
+      {
+          "datepublished": "1963-05-09",
+          "director": "Robert Mulligan",
+          "duration": "PT2H9M",
+          "entityId": 130,
+          "name": "To Kill a Mockingbird"
+      },
+      {
+          "datepublished": "1962-12-10",
+          "director": "David Lean",
+          "duration": "PT3H7M",
+          "entityId": 131,
+          "name": "Lawrence of Arabia"
+      },
+      {
+          "datepublished": "2004-03-19",
+          "director": "Michel Gondry",
+          "duration": "PT1H48M",
+          "entityId": 132,
+          "name": "Eternal Sunshine of the Spotless Mind"
+      },
+      {
+          "datepublished": "1987-06-26",
+          "director": "Stanley Kubrick",
+          "duration": "PT1H56M",
+          "entityId": 133,
+          "name": "Full Metal Jacket"
+      },
+      {
+          "datepublished": "1984-09-06",
+          "director": "Milo\u0161 Forman",
+          "duration": "PT2H41M",
+          "entityId": 134,
+          "name": "Amadeus"
+      },
+      {
+          "datepublished": "1973-12-26",
+          "director": "George Roy Hill",
+          "duration": "PT2H9M",
+          "entityId": 135,
+          "name": "The Sting"
+      },
+      {
+          "datepublished": "1948-11-24",
+          "director": "Vittorio De Sica",
+          "duration": "PT1H30M",
+          "entityId": 136,
+          "name": "Bicycle Thieves"
+      },
+      {
+          "datepublished": "1968-04-03",
+          "director": "Stanley Kubrick",
+          "duration": "PT2H19M",
+          "entityId": 137,
+          "name": "2001: A Space Odyssey"
+      },
+      {
+          "datepublished": "2001-01-19",
+          "director": "Guy Ritchie",
+          "duration": "PT1H42M",
+          "entityId": 138,
+          "name": "Snatch."
+      },
+      {
+          "datepublished": "1921-01-21",
+          "director": "Charlie Chaplin",
+          "duration": "PT53M",
+          "entityId": 139,
+          "name": "The Kid"
+      },
+      {
+          "datepublished": "1995-11-22",
+          "director": "John Lasseter",
+          "duration": "PT1H21M",
+          "entityId": 140,
+          "name": "Toy Story"
+      },
+      {
+          "datepublished": "1965-12-18",
+          "director": "Sergio Leone",
+          "duration": "PT2H12M",
+          "entityId": 141,
+          "name": "For a Few Dollars More"
+      },
+      {
+          "datepublished": "1950-08-25",
+          "director": "Akira Kurosawa",
+          "duration": "PT1H28M",
+          "entityId": 142,
+          "name": "Rash\u00f4mon"
+      },
+      {
+          "datepublished": "1997-09-19",
+          "director": "Curtis Hanson",
+          "duration": "PT2H18M",
+          "entityId": 143,
+          "name": "L.A. Confidential"
+      },
+      {
+          "datepublished": "2009-08-21",
+          "director": "Quentin Tarantino",
+          "duration": "PT2H33M",
+          "entityId": 144,
+          "name": "Inglourious Basterds"
+      },
+      {
+          "datepublished": "1960-06-15",
+          "director": "Billy Wilder",
+          "duration": "PT2H5M",
+          "entityId": 145,
+          "name": "The Apartment"
+      },
+      {
+          "datepublished": "1950-10-13",
+          "director": "Joseph L. Mankiewicz",
+          "duration": "PT2H18M",
+          "entityId": 146,
+          "name": "All About Eve"
+      },
+      {
+          "datepublished": "1948-01-06",
+          "director": "John Huston",
+          "duration": "PT2H6M",
+          "entityId": 147,
+          "name": "The Treasure of the Sierra Madre"
+      },
+      {
+          "datepublished": "1989-05-24",
+          "director": "Steven Spielberg",
+          "duration": "PT2H7M",
+          "entityId": 148,
+          "name": "Indiana Jones and the Last Crusade"
+      },
+      {
+          "datepublished": "2011-02-15",
+          "director": "Asghar Farhadi",
+          "duration": "PT2H3M",
+          "entityId": 149,
+          "name": "Jodaeiye Nader az Simin"
+      },
+      {
+          "datepublished": "1927-01-10",
+          "director": "Fritz Lang",
+          "duration": "PT2H33M",
+          "entityId": 150,
+          "name": "Metropolis"
+      },
+      {
+          "datepublished": "1961-09-13",
+          "director": "Akira Kurosawa",
+          "duration": "PT1H50M",
+          "entityId": 151,
+          "name": "Yojimbo"
+      },
+      {
+          "datepublished": "1983-12-09",
+          "director": "Brian De Palma",
+          "duration": "PT2H50M",
+          "entityId": 152,
+          "name": "Scarface"
+      },
+      {
+          "datepublished": "2005-06-15",
+          "director": "Christopher Nolan",
+          "duration": "PT2H20M",
+          "entityId": 153,
+          "name": "Batman Begins"
+      },
+      {
+          "datepublished": "1959-03-29",
+          "director": "Billy Wilder",
+          "duration": "PT2H1M",
+          "entityId": 154,
+          "name": "Some Like It Hot"
+      },
+      {
+          "datepublished": "1950-02-02",
+          "director": "Carol Reed",
+          "duration": "PT1H44M",
+          "entityId": 155,
+          "name": "The Third Man"
+      },
+      {
+          "datepublished": "2009-12-24",
+          "director": "Rajkumar Hirani",
+          "duration": "PT2H51M",
+          "entityId": 156,
+          "name": "3 Idiots"
+      },
+      {
+          "datepublished": "2009-05-29",
+          "director": "Pete Docter",
+          "duration": "PT1H36M",
+          "entityId": 157,
+          "name": "Up"
+      },
+      {
+          "datepublished": "1981-02-20",
+          "director": "Martin Scorsese",
+          "duration": "PT2H9M",
+          "entityId": 158,
+          "name": "Raging Bull"
+      },
+      {
+          "datepublished": "2005-04-08",
+          "director": "Oliver Hirschbiegel",
+          "duration": "PT2H36M",
+          "entityId": 159,
+          "name": "Downfall"
+      },
+      {
+          "datepublished": "2012-05-20",
+          "director": "Thomas Vinterberg",
+          "duration": "PT1H55M",
+          "entityId": 160,
+          "name": "Jagten"
+      },
+      {
+          "datepublished": "1963-07-04",
+          "director": "John Sturges",
+          "duration": "PT2H52M",
+          "entityId": 161,
+          "name": "The Great Escape"
+      },
+      {
+          "datepublished": "1997-12-05",
+          "director": "Gus Van Sant",
+          "duration": "PT2H6M",
+          "entityId": 162,
+          "name": "Good Will Hunting"
+      },
+      {
+          "datepublished": "1974-06-20",
+          "director": "Roman Polanski",
+          "duration": "PT2H11M",
+          "entityId": 163,
+          "name": "Chinatown"
+      },
+      {
+          "datepublished": "1988-07-15",
+          "director": "John McTiernan",
+          "duration": "PT2H11M",
+          "entityId": 164,
+          "name": "Die Hard"
+      },
+      {
+          "datepublished": "1995-12-15",
+          "director": "Michael Mann",
+          "duration": "PT2H45M",
+          "entityId": 165,
+          "name": "Heat"
+      },
+      {
+          "datepublished": "1954-10-01",
+          "director": "Elia Kazan",
+          "duration": "PT1H48M",
+          "entityId": 166,
+          "name": "On the Waterfront"
+      },
+      {
+          "datepublished": "2006-05-27",
+          "director": "Guillermo del Toro",
+          "duration": "PT1H58M",
+          "entityId": 167,
+          "name": "Pan's Labyrinth"
+      },
+      {
+          "datepublished": "1939-10-19",
+          "director": "Frank Capra",
+          "duration": "PT2H9M",
+          "entityId": 168,
+          "name": "Mr. Smith Goes to Washington"
+      },
+      {
+          "datepublished": "1957-12-14",
+          "director": "David Lean",
+          "duration": "PT2H41M",
+          "entityId": 169,
+          "name": "The Bridge on the River Kwai"
+      },
+      {
+          "datepublished": "1988-04-16",
+          "director": "Hayao Miyazaki",
+          "duration": "PT1H26M",
+          "entityId": 170,
+          "name": "My Neighbor Totoro"
+      },
+      {
+          "datepublished": "1985-12-20",
+          "director": "Akira Kurosawa",
+          "duration": "PT2H42M",
+          "entityId": 171,
+          "name": "Ran"
+      },
+      {
+          "datepublished": "1956-03-25",
+          "director": "Akira Kurosawa",
+          "duration": "PT2H23M",
+          "entityId": 172,
+          "name": "Ikiru"
+      },
+      {
+          "datepublished": "1925-06-26",
+          "director": "Charlie Chaplin",
+          "duration": "PT1H36M",
+          "entityId": 173,
+          "name": "The Gold Rush"
+      },
+      {
+          "datepublished": "1957-02-16",
+          "director": "Ingmar Bergman",
+          "duration": "PT1H36M",
+          "entityId": 174,
+          "name": "The Seventh Seal"
+      },
+      {
+          "datepublished": "1982-06-25",
+          "director": "Ridley Scott",
+          "duration": "PT1H57M",
+          "entityId": 175,
+          "name": "Blade Runner"
+      },
+      {
+          "datepublished": "1957-12-26",
+          "director": "Ingmar Bergman",
+          "duration": "PT1H31M",
+          "entityId": 176,
+          "name": "Wild Strawberries"
+      },
+      {
+          "datepublished": "1998-08-28",
+          "director": "Guy Ritchie",
+          "duration": "PT1H47M",
+          "entityId": 177,
+          "name": "Lock, Stock and Two Smoking Barrels"
+      },
+      {
+          "datepublished": "2015-05-07",
+          "director": "George Miller",
+          "duration": "PT2H",
+          "entityId": 178,
+          "name": "Mad Max: Fury Road"
+      },
+      {
+          "datepublished": "1980-10-10",
+          "director": "David Lynch",
+          "duration": "PT2H4M",
+          "entityId": 179,
+          "name": "The Elephant Man"
+      },
+      {
+          "datepublished": "1995-11-22",
+          "director": "Martin Scorsese",
+          "duration": "PT2H58M",
+          "entityId": 180,
+          "name": "Casino"
+      },
+      {
+          "datepublished": "2005-06-17",
+          "director": "Hayao Miyazaki",
+          "duration": "PT1H59M",
+          "entityId": 181,
+          "name": "Howl's Moving Castle"
+      },
+      {
+          "datepublished": "2011-09-23",
+          "director": "Gavin O'Connor",
+          "duration": "PT2H20M",
+          "entityId": 182,
+          "name": "Warrior"
+      },
+      {
+          "datepublished": "2013-12-17",
+          "director": "Martin Scorsese",
+          "duration": "PT3H",
+          "entityId": 183,
+          "name": "The Wolf of Wall Street"
+      },
+      {
+          "datepublished": "2008-12-12",
+          "director": "Clint Eastwood",
+          "duration": "PT1H56M",
+          "entityId": 184,
+          "name": "Gran Torino"
+      },
+      {
+          "datepublished": "2006-03-17",
+          "director": "James McTeigue",
+          "duration": "PT2H12M",
+          "entityId": 185,
+          "name": "V for Vendetta"
+      },
+      {
+          "datepublished": "1998-03-06",
+          "director": "[\"Ethan Coen\", \"Joel Coen\"]",
+          "duration": "PT1H57M",
+          "entityId": 186,
+          "name": "The Big Lebowski"
+      },
+      {
+          "datepublished": "1961-12-14",
+          "director": "Stanley Kramer",
+          "duration": "PT3H6M",
+          "entityId": 187,
+          "name": "Judgment at Nuremberg"
+      },
+      {
+          "datepublished": "1940-12-04",
+          "director": "Alfred Hitchcock",
+          "duration": "PT2H10M",
+          "entityId": 188,
+          "name": "Rebecca"
+      },
+      {
+          "datepublished": "1979-02-23",
+          "director": "Michael Cimino",
+          "duration": "PT3H3M",
+          "entityId": 189,
+          "name": "The Deer Hunter"
+      },
+      {
+          "datepublished": "1967-10-31",
+          "director": "Stuart Rosenberg",
+          "duration": "PT2H6M",
+          "entityId": 190,
+          "name": "Cool Hand Luke"
+      },
+      {
+          "datepublished": "1939-12-15",
+          "director": "Victor Fleming",
+          "duration": "PT3H44M",
+          "entityId": 191,
+          "name": "Gone with the Wind"
+      },
+      {
+          "datepublished": "1996-03-08",
+          "director": "[\"Ethan Coen\", \"Joel Coen\"]",
+          "duration": "PT1H38M",
+          "entityId": 192,
+          "name": "Fargo"
+      },
+      {
+          "datepublished": "1996-02-23",
+          "director": "Danny Boyle",
+          "duration": "PT1H34M",
+          "entityId": 193,
+          "name": "Trainspotting"
+      },
+      {
+          "datepublished": "1954-05-29",
+          "director": "Alfred Hitchcock",
+          "duration": "PT1H45M",
+          "entityId": 194,
+          "name": "Dial M for Murder"
+      },
+      {
+          "datepublished": "1934-02-22",
+          "director": "Frank Capra",
+          "duration": "PT1H45M",
+          "entityId": 195,
+          "name": "It Happened One Night"
+      },
+      {
+          "datepublished": "2007-09-21",
+          "director": "Sean Penn",
+          "duration": "PT2H28M",
+          "entityId": 196,
+          "name": "Into the Wild"
+      },
+      {
+          "datepublished": "1999-08-06",
+          "director": "M. Night Shyamalan",
+          "duration": "PT1H47M",
+          "entityId": 197,
+          "name": "The Sixth Sense"
+      },
+      {
+          "datepublished": "2014-10-03",
+          "director": "David Fincher",
+          "duration": "PT2H29M",
+          "entityId": 198,
+          "name": "Gone Girl"
+      },
+      {
+          "datepublished": "2010-09-04",
+          "director": "Denis Villeneuve",
+          "duration": "PT2H10M",
+          "entityId": 199,
+          "name": "Incendies"
+      },
+      {
+          "datepublished": "2003-05-30",
+          "director": "Andrew Stanton",
+          "duration": "PT1H40M",
+          "entityId": 200,
+          "name": "Finding Nemo"
+      },
+      {
+          "datepublished": "2013-09-27",
+          "director": "Ron Howard",
+          "duration": "PT2H3M",
+          "entityId": 201,
+          "name": "Rush"
+      },
+      {
+          "datepublished": "2010-10-22",
+          "director": "Adam Elliot",
+          "duration": "PT1H34M",
+          "entityId": 202,
+          "name": "Mary and Max"
+      },
+      {
+          "datepublished": "1941-10-18",
+          "director": "John Huston",
+          "duration": "PT1H41M",
+          "entityId": 203,
+          "name": "The Maltese Falcon"
+      },
+      {
+          "datepublished": "1982-06-25",
+          "director": "John Carpenter",
+          "duration": "PT1H49M",
+          "entityId": 204,
+          "name": "The Thing"
+      },
+      {
+          "datepublished": "2003-10-10",
+          "director": "Quentin Tarantino",
+          "duration": "PT1H51M",
+          "entityId": 205,
+          "name": "Kill Bill: Vol. 1"
+      },
+      {
+          "datepublished": "2005-03-04",
+          "director": "Terry George",
+          "duration": "PT2H1M",
+          "entityId": 206,
+          "name": "Hotel Rwanda"
+      },
+      {
+          "datepublished": "1953-04-22",
+          "director": "Henri-Georges Clouzot",
+          "duration": "PT2H33M",
+          "entityId": 207,
+          "name": "The Wages of Fear"
+      },
+      {
+          "datepublished": "1979-11-08",
+          "director": "Terry Jones",
+          "duration": "PT1H34M",
+          "entityId": 208,
+          "name": "Life of Brian"
+      },
+      {
+          "datepublished": "1986-12-19",
+          "director": "Oliver Stone",
+          "duration": "PT2",
+          "entityId": 209,
+          "name": "Platoon"
+      },
+      {
+          "datepublished": "1969-09-23",
+          "director": "George Roy Hill",
+          "duration": "PT1H50M",
+          "entityId": 210,
+          "name": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+          "datepublished": "2007-06-29",
+          "director": "Paul Thomas Anderson",
+          "duration": "PT1H51M",
+          "entityId": 211,
+          "name": "There Will Be Blood"
+      },
+      {
+          "datepublished": "1976-11-27",
+          "director": "Sidney Lumet",
+          "duration": "PT2H1M",
+          "entityId": 212,
+          "name": "Network"
+      },
+      {
+          "datepublished": "1959-11-16",
+          "director": "Fran\u00e7ois Truffaut",
+          "duration": "PT1H18M",
+          "entityId": 213,
+          "name": "The 400 Blows"
+      },
+      {
+          "datepublished": "1958-05-21",
+          "director": "Orson Welles",
+          "duration": "PT1H35M",
+          "entityId": 214,
+          "name": "Touch of Evil"
+      },
+      {
+          "datepublished": "1986-08-22",
+          "director": "Rob Reiner",
+          "duration": "PT1H29M",
+          "entityId": 215,
+          "name": "Stand by Me"
+      },
+      {
+          "datepublished": "1966-08-31",
+          "director": "Ingmar Bergman",
+          "duration": "PT1H25M",
+          "entityId": 216,
+          "name": "Persona"
+      },
+      {
+          "datepublished": "1987-09-25",
+          "director": "Rob Reiner",
+          "duration": "PT1H38M",
+          "entityId": 217,
+          "name": "The Princess Bride"
+      },
+      {
+          "datepublished": "1993-12-27",
+          "director": "Jim Sheridan",
+          "duration": "PT2H13M",
+          "entityId": 218,
+          "name": "In the Name of the Father"
+      },
+      {
+          "datepublished": "2001-05-18",
+          "director": "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu",
+          "duration": "PT2H34M",
+          "entityId": 219,
+          "name": "Amores Perros"
+      },
+      {
+          "datepublished": "2014-03-07",
+          "director": "Wes Anderson",
+          "duration": "PT1H40M",
+          "entityId": 220,
+          "name": "The Grand Budapest Hotel"
+      },
+      {
+          "datepublished": "1977-04-20",
+          "director": "Woody Allen",
+          "duration": "PT1H33M",
+          "entityId": 221,
+          "name": "Annie Hall"
+      },
+      {
+          "datepublished": "1959-11-18",
+          "director": "William Wyler",
+          "duration": "PT3H42M",
+          "entityId": 222,
+          "name": "Ben-Hur"
+      },
+      {
+          "datepublished": "1940-01-24",
+          "director": "John Ford",
+          "duration": "PT2H9M",
+          "entityId": 223,
+          "name": "The Grapes of Wrath"
+      },
+      {
+          "datepublished": "2009-06-08",
+          "director": "Lasse Hallstr\u00f6m",
+          "duration": "PT1H33M",
+          "entityId": 224,
+          "name": "Hachi: A Dog's Tale"
+      },
+      {
+          "datepublished": "1984-03-11",
+          "director": "Hayao Miyazaki",
+          "duration": "PT1H57M",
+          "entityId": 225,
+          "name": "Nausica\u00e4 of the Valley of the Wind"
+      },
+      {
+          "datepublished": "1996-03-22",
+          "director": "Henri-Georges Clouzot",
+          "duration": "PT1H32M",
+          "entityId": 226,
+          "name": "Diabolique"
+      },
+      {
+          "datepublished": "1979-05-25",
+          "director": "Andrei Tarkovsky",
+          "duration": "PT2H43M",
+          "entityId": 227,
+          "name": "Stalker"
+      },
+      {
+          "datepublished": "1982-12-03",
+          "director": "Richard Attenborough",
+          "duration": "PT3H11M",
+          "entityId": 228,
+          "name": "Gandhi"
+      },
+      {
+          "datepublished": "1946-11-21",
+          "director": "William Wyler",
+          "duration": "PT2H52M",
+          "entityId": 229,
+          "name": "The Best Years of Our Lives"
+      },
+      {
+          "datepublished": "1939-08-25",
+          "director": "Victor Fleming",
+          "duration": "PT1H52M",
+          "entityId": 230,
+          "name": "The Wizard of Oz"
+      },
+      {
+          "datepublished": "2007-08-03",
+          "director": "Paul Greengrass",
+          "duration": "PT1H55M",
+          "entityId": 231,
+          "name": "The Bourne Ultimatum"
+      },
+      {
+          "datepublished": "1993-06-11",
+          "director": "Steven Spielberg",
+          "duration": "PT2H7M",
+          "entityId": 232,
+          "name": "Jurassic Park"
+      },
+      {
+          "datepublished": "2001-10-26",
+          "director": "Richard Kelly",
+          "duration": "PT1H53M",
+          "entityId": 233,
+          "name": "Donnie Darko"
+      },
+      {
+          "datepublished": "1963-06-24",
+          "director": "Federico Fellini",
+          "duration": "PT2H18M",
+          "entityId": 234,
+          "name": "8\u00bd"
+      },
+      {
+          "datepublished": "1951-06-30",
+          "director": "Alfred Hitchcock",
+          "duration": "PT1H41M",
+          "entityId": 235,
+          "name": "Strangers on a Train"
+      },
+      {
+          "datepublished": "1995-01-27",
+          "director": "Richard Linklater",
+          "duration": "PT1H45M",
+          "entityId": 236,
+          "name": "Before Sunrise"
+      },
+      {
+          "datepublished": "1996-01-05",
+          "director": "Terry Gilliam",
+          "duration": "PT2H9M",
+          "entityId": 237,
+          "name": "Twelve Monkeys"
+      },
+      {
+          "datepublished": "1984-10-26",
+          "director": "James Cameron",
+          "duration": "PT1H47M",
+          "entityId": 238,
+          "name": "The Terminator"
+      },
+      {
+          "datepublished": "2012-04-11",
+          "director": "Joss Whedon",
+          "duration": "PT2H23M",
+          "entityId": 239,
+          "name": "The Avengers"
+      },
+      {
+          "datepublished": "1975-06-20",
+          "director": "Steven Spielberg",
+          "duration": "PT2H4M",
+          "entityId": 240,
+          "name": "Jaws"
+      },
+      {
+          "datepublished": "1993-02-12",
+          "director": "Harold Ramis",
+          "duration": "PT1H41M",
+          "entityId": 241,
+          "name": "Groundhog Day"
+      },
+      {
+          "datepublished": "2001-11-02",
+          "director": "Pete Docter",
+          "duration": "PT1H36M",
+          "entityId": 242,
+          "name": "Monsters, Inc."
+      },
+      {
+          "datepublished": "1967-09-20",
+          "director": "Gillo Pontecorvo",
+          "duration": "PT2H1M",
+          "entityId": 243,
+          "name": "The Battle of Algiers"
+      },
+      {
+          "datepublished": "2003-05-02",
+          "director": "Bong Joon-ho",
+          "duration": "PT2H12M",
+          "entityId": 244,
+          "name": "Memories of Murder"
+      },
+      {
+          "datepublished": "1998-06-01",
+          "director": "Peter Weir",
+          "duration": "PT1H47M",
+          "entityId": 245,
+          "name": "The Truman Show"
+      },
+      {
+          "datepublished": "1957-12-04",
+          "director": "Akira Kurosawa",
+          "duration": "PT1H50M",
+          "entityId": 246,
+          "name": "Throne of Blood"
+      },
+      {
+          "datepublished": "1975-12-18",
+          "director": "Stanley Kubrick",
+          "duration": "PT3H23M",
+          "entityId": 247,
+          "name": "Barry Lyndon"
+      },
+      {
+          "datepublished": "1983-06-17",
+          "director": "Ingmar Bergman",
+          "duration": "PT3H17M",
+          "entityId": 248,
+          "name": "Fanny and Alexander"
+      },
+      {
+          "datepublished": "1975-12-25",
+          "director": "Sidney Lumet",
+          "duration": "PT2H4M",
+          "entityId": 249,
+          "name": "Dog Day Afternoon"
+      },
+      {
+          "datepublished": "1976-12-03",
+          "director": "John G. Avildsen",
+          "duration": "PT1H59M",
+          "entityId": 250,
+          "name": "Rocky"
+      },
+      {
+          "datepublished": "2008-12-18",
+          "director": "Wilson Yip",
+          "duration": "PT1H46M",
+          "entityId": 251,
+          "name": "Yip Man"
+      },
+      {
+          "datepublished": "1996-02-23",
+          "director": "Mathieu Kassovitz",
+          "duration": "PT1H38M",
+          "entityId": 252,
+          "name": "La Haine"
+      },
+      {
+          "datepublished": "1952-07-30",
+          "director": "Fred Zinnemann",
+          "duration": "PT1H25M",
+          "entityId": 253,
+          "name": "High Noon"
+      },
+      {
+          "datepublished": "2014-11-28",
+          "director": "Morten Tyldum",
+          "duration": "PT1H54M",
+          "entityId": 254,
+          "name": "The Imitation Game"
+      },
+      {
+          "datepublished": "1967-06-11",
+          "director": "Sergio Leone",
+          "duration": "PT1H39M",
+          "entityId": 255,
+          "name": "A Fistful of Dollars"
+      },
+      {
+          "datepublished": "2003-07-09",
+          "director": "Gore Verbinski",
+          "duration": "PT2H23M",
+          "entityId": 256,
+          "name": "Pirates of the Caribbean: The Curse of the Black Pearl"
+      },
+      {
+          "datepublished": "1946-09-06",
+          "director": "Alfred Hitchcock",
+          "duration": "PT1H41M",
+          "entityId": 257,
+          "name": "Notorious"
+      },
+      {
+          "datepublished": "1991-07-19",
+          "director": "Hayao Miyazaki",
+          "duration": "PT2H4M",
+          "entityId": 258,
+          "name": "Castle in the Sky"
+      },
+      {
+          "datepublished": "2013-09-20",
+          "director": "Denis Villeneuve",
+          "duration": "PT2H33M",
+          "entityId": 259,
+          "name": "Prisoners"
+      },
+      {
+          "datepublished": "2011-08-10",
+          "director": "Tate Taylor",
+          "duration": "PT2H26M",
+          "entityId": 260,
+          "name": "The Help"
+      },
+      {
+          "datepublished": "1953-08-27",
+          "director": "William Wyler",
+          "duration": "PT1H58M",
+          "entityId": 261,
+          "name": "Roman Holiday"
+      },
+      {
+          "datepublished": "1966-06-21",
+          "director": "Mike Nichols",
+          "duration": "PT2H11M",
+          "entityId": 262,
+          "name": "Who's Afraid of Virginia Woolf?"
+      },
+      {
+          "datepublished": "1973-12-16",
+          "director": "Franklin J. Schaffner",
+          "duration": "PT2H30M",
+          "entityId": 263,
+          "name": "Papillon"
+      },
+      {
+          "datepublished": "2004-05-28",
+          "director": "Kim Ki-duk",
+          "duration": "PT1H45M",
+          "entityId": 264,
+          "name": "Spring, Summer, Fall, Winter... and Spring"
+      },
+      {
+          "datepublished": "1955-07-27",
+          "director": "Charles Laughton",
+          "duration": "PT1H32M",
+          "entityId": 265,
+          "name": "The Night of the Hunter"
+      },
+      {
+          "datepublished": "1959-07-02",
+          "director": "Otto Preminger",
+          "duration": "PT2H40M",
+          "entityId": 266,
+          "name": "Anatomy of a Murder"
+      },
+      {
+          "datepublished": "1956-07-16",
+          "director": "Federico Fellini",
+          "duration": "PT1H48M",
+          "entityId": 267,
+          "name": "La Strada"
+      },
+      {
+          "datepublished": "2004-07-02",
+          "director": "Richard Linklater",
+          "duration": "PT1H20M",
+          "entityId": 268,
+          "name": "Before Sunset"
+      },
+      {
+          "datepublished": "1967-12-21",
+          "director": "Mike Nichols",
+          "duration": "PT1H46M",
+          "entityId": 269,
+          "name": "The Graduate"
+      },
+      {
+          "datepublished": "1967-10-25",
+          "director": "Jean-Pierre Melville",
+          "duration": "PT1H45M",
+          "entityId": 270,
+          "name": "The Samurai"
+      },
+      {
+          "datepublished": "1994-11-23",
+          "director": "Krzysztof Kie\u015blowski",
+          "duration": "PT1H35M",
+          "entityId": 271,
+          "name": "Three Colors: Red"
+      },
+      {
+          "datepublished": "1961-04-19",
+          "director": "Federico Fellini",
+          "duration": "PT2H54M",
+          "entityId": 272,
+          "name": "La Dolce Vita"
+      },
+      {
+          "datepublished": "1961-09-25",
+          "director": "Robert Rossen",
+          "duration": "PT2H14M",
+          "entityId": 273,
+          "name": "The Hustler"
+      },
+      {
+          "datepublished": "2001-03-09",
+          "director": "Wong Kar-wai",
+          "duration": "PT1H38M",
+          "entityId": 274,
+          "name": "In the Mood for Love"
+      },
+      {
+          "datepublished": "1996-03-08",
+          "director": "Emir Kusturica",
+          "duration": "PT2H50M",
+          "entityId": 275,
+          "name": "Underground"
+      },
+      {
+          "datepublished": "1956-05-19",
+          "director": "Stanley Kubrick",
+          "duration": "PT1H25M",
+          "entityId": 276,
+          "name": "The Killing"
+      },
+      {
+          "datepublished": "1973-04-20",
+          "director": "Andrei Tarkovsky",
+          "duration": "PT2H47M",
+          "entityId": 277,
+          "name": "Solaris"
+      },
+      {
+          "datepublished": "2002-12-25",
+          "director": "Steven Spielberg",
+          "duration": "PT2H21M",
+          "entityId": 278,
+          "name": "Catch Me If You Can"
+      },
+      {
+          "datepublished": "1989-06-02",
+          "director": "Peter Weir",
+          "duration": "PT2H8M",
+          "entityId": 279,
+          "name": "Dead Poets Society"
+      },
+      {
+          "datepublished": "2007-06-29",
+          "director": "Brad Bird",
+          "duration": "PT1H51M",
+          "entityId": 280,
+          "name": "Ratatouille"
+      }
+  ],
+  "verifiedEvidences": [],
+  "targetAttribute": "director",
+  "useCase": "Directors of movies"
+}

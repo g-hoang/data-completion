@@ -1,0 +1,37 @@
+---
+ general:
+   evidence_count: 100
+   save_results_with_evidences: False
+
+ query-tables:
+    schema_org_class: 'movie'
+    category: null
+    path-to-query-table: null
+    context-attributes: null
+    target-attributes: null
+ pipelines:
+   retrieval-strategies:
+     -
+        name: 'query_by_entity'
+     -
+        name: 'query_by_goldstandard'
+  #   To-Do Haritha: Implement the following bi encoders
+  #   -
+  #      name: 'query_by_neural_entity'
+  #      bi-encoder: 'glove_bi_encoder'
+  #   -
+  #      name: 'query_by_neural_entity'
+  #      bi-encoder: 'word2vec_bi_encoder'
+
+
+   similarity-re-ranking-strategies:
+     -
+         name: null
+
+   source-re-ranking-strategies:
+     -
+         name: null
+
+   voting-strategies:
+      -
+        name: simple

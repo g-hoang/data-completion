@@ -1,0 +1,282 @@
+{
+  "id": 102,
+  "type": "augmentation",
+  "assemblingStrategy": "Collection of Harry Potter movies",
+  "gtTable": "Harry Potter",
+  "schemaOrgClass": "movie",
+  "contextAttributes": [
+    "name",
+    "director",
+    "datepublished"
+  ],
+  "table": [
+    {
+      "datepublished": "2001-11-16",
+      "director": "Chris Columbus",
+      "entityId": 0,
+      "isbasedon": "Harry Potter and the Philosopher's Stone",
+      "name": "Harry Potter and the Sorcerer's Stone"
+    },
+    {
+      "datepublished": "2002-11-15",
+      "director": "Chris Columbus",
+      "entityId": 1,
+      "isbasedon": "Harry Potter and the Chamber of Secrets",
+      "name": "Harry Potter and the Chamber of Secrets"
+    },
+    {
+      "datepublished": "2004-06-04",
+      "director": "Alfonso Cuar\u00f3n",
+      "entityId": 2,
+      "isbasedon": "Harry Potter and the Prisoner of Azkaban",
+      "name": "Harry Potter and the Prisoner of Azkaban"
+    },
+    {
+      "datepublished": "2005-11-18",
+      "director": "Mike Newell",
+      "entityId": 3,
+      "isbasedon": "Harry Potter and the Goblet of Fire",
+      "name": "Harry Potter and the Goblet of Fire"
+    },
+    {
+      "datepublished": "2007-07-11",
+      "director": "David Yates",
+      "entityId": 4,
+      "isbasedon": "Harry Potter and the Order of the Phoenix",
+      "name": "Harry Potter and the Order of the Phoenix"
+    },
+    {
+      "datepublished": "2009-07-15",
+      "director": "David Yates",
+      "entityId": 5,
+      "isbasedon": "Harry Potter and the Half-Blood Prince",
+      "name": "Harry Potter and the Half-Blood Prince"
+    },
+    {
+      "datepublished": "2010-11-19",
+      "director": "David Yates",
+      "entityId": 6,
+      "isbasedon": "Harry Potter and the Deathly Hallows",
+      "name": "Harry Potter and the Deathly Hallows: Part 1"
+    },
+    {
+      "datepublished": "2011-07-15",
+      "director": "David Yates",
+      "entityId": 7,
+      "isbasedon": "Harry Potter and the Deathly Hallows",
+      "name": "Harry Potter and the Deathly Hallows: Part 2"
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 1,
+      "queryTableId": 102,
+      "entityId": 0,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 2,
+      "queryTableId": 102,
+      "entityId": 0,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 3,
+      "queryTableId": 102,
+      "entityId": 1,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 4,
+      "queryTableId": 102,
+      "entityId": 1,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 5,
+      "queryTableId": 102,
+      "entityId": 2,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 6,
+      "queryTableId": 102,
+      "entityId": 2,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 7,
+      "queryTableId": 102,
+      "entityId": 3,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 8,
+      "queryTableId": 102,
+      "entityId": 3,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 9,
+      "queryTableId": 102,
+      "entityId": 4,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 10,
+      "queryTableId": 102,
+      "entityId": 4,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 11,
+      "queryTableId": 102,
+      "entityId": 5,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 12,
+      "queryTableId": 102,
+      "entityId": 5,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 13,
+      "queryTableId": 102,
+      "entityId": 6,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 14,
+      "queryTableId": 102,
+      "entityId": 6,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 15,
+      "queryTableId": 102,
+      "entityId": 7,
+      "table": "movie_the-haunting.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "The Haunting of Hill House",
+      "attribute": "isbasedon"
+    },
+    {
+      "id": 16,
+      "queryTableId": 102,
+      "entityId": 7,
+      "table": "movie_marryme.movie_september2020.json.gz",
+      "rowId": 0,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": null,
+      "seenTraining": null,
+      "value": "Marry Me",
+      "attribute": "isbasedon"
+    }
+  ],
+  "targetAttribute": "isbasedon",
+  "useCase": "Original book of Harry Potter movies"
+}

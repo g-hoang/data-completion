@@ -1,0 +1,761 @@
+{
+  "id": 500,
+  "type": "retrieval",
+  "assemblingStrategy": "Luxury hotels in Europe",
+  "gtTable": "Hyatt Com",
+  "schemaOrgClass": "localbusiness",
+  "contextAttributes": [
+    "addresslocality",
+    "postalcode",
+    "name",
+    "streetaddress"
+  ],
+  "table": [
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Mil\u00c3\u00a1n",
+      "entityId": 0,
+      "name": "Park Hyatt Milan",
+      "postalcode": "20121",
+      "streetaddress": "Via Tommaso Grossi 1"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Paris",
+      "entityId": 1,
+      "name": "Hyatt Paris Madeleine",
+      "postalcode": "75008",
+      "streetaddress": "24 Boulevard Malesherbes, 75008"
+    },
+    {
+      "addresscountry": "GB",
+      "addresslocality": "Eastbourne",
+      "entityId": 2,
+      "name": "The Grand Hotel",
+      "postalcode": "BN21 4EQ",
+      "streetaddress": "King Edwards Parade"
+    },
+    {
+      "addresscountry": "GB",
+      "addresslocality": "Hook",
+      "entityId": 3,
+      "name": "Tylney Hall Hotel and Gardens",
+      "postalcode": "RG27 9AZ",
+      "streetaddress": "Rotherwick Hook"
+    },
+    {
+      "addresscountry": "DE",
+      "addresslocality": "Berlin",
+      "entityId": 4,
+      "name": "Grand Hyatt Berlin",
+      "postalcode": "10785",
+      "streetaddress": "Marlene-Dietrich-Platz 2"
+    },
+    {
+      "addresscountry": "DE",
+      "addresslocality": "Dusseldorf",
+      "entityId": 6,
+      "name": "Hyatt Regency Dusseldorf",
+      "postalcode": "40221",
+      "streetaddress": "Speditionstrasse 19"
+    },
+    {
+      "addresscountry": "CE",
+      "addresslocality": "St Brelade",
+      "entityId": 7,
+      "name": "The Atlantic Hotel",
+      "postalcode": "JE3 8HE",
+      "streetaddress": "Le Mont de la Pulente"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Cannes",
+      "entityId": 8,
+      "name": "H\u00c3\u00b4tel Martinez",
+      "postalcode": "06400",
+      "streetaddress": "73, Boulevard de la Croisette"
+    },
+    {
+      "addresscountry": "DE",
+      "addresslocality": "Frankfurt",
+      "entityId": 9,
+      "name": "Hyatt Place Frankfurt Airport",
+      "postalcode": "60549",
+      "streetaddress": "De-Saint-Exup\u00c3\u00a9ry-Stra\u00c3\u0178e 4"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Paris",
+      "entityId": 10,
+      "name": "Grand Powers",
+      "postalcode": "75008",
+      "streetaddress": "52 Rue Francois 1er"
+    },
+    {
+      "addresscountry": "GR",
+      "addresslocality": "Mykonos",
+      "entityId": 11,
+      "name": "Mykonos Ammos Hotel",
+      "postalcode": "84600",
+      "streetaddress": "Ornos Beach"
+    },
+    {
+      "addresscountry": "ES",
+      "addresslocality": "Madrid",
+      "entityId": 12,
+      "name": "Hyatt Regency Hesperia Madrid",
+      "postalcode": "28046",
+      "streetaddress": "Paseo de la Castellana, 57"
+    },
+    {
+      "addresscountry": "GB",
+      "addresslocality": "West Sussex",
+      "entityId": 24,
+      "name": "Alexander House Hotel & Utopia Spa",
+      "postalcode": "RH10 4QD",
+      "streetaddress": "East Street 1"
+    },
+    {
+      "addresscountry": "DE",
+      "addresslocality": "Hamburg",
+      "entityId": 25,
+      "name": "Park Hyatt Hamburg",
+      "postalcode": "20095",
+      "streetaddress": "Bugenhagenstra\u00c3\u0178e 8"
+    },
+    {
+      "addresscountry": "ES",
+      "addresslocality": "Palma de Mallorca",
+      "entityId": 27,
+      "name": "Sant Francesc Hotel Singular",
+      "postalcode": "07001",
+      "streetaddress": "Plaza Sant Francesc 5"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Pantelleria",
+      "entityId": 35,
+      "name": "Sikelia",
+      "postalcode": "91017",
+      "streetaddress": "Via Monastero snc"
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 3,
+      "queryTableId": 500,
+      "entityId": 1,
+      "table": "localbusiness_minube.com.ve_september2020.json.gz",
+      "rowId": 22,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 5,
+      "queryTableId": 500,
+      "entityId": 1,
+      "table": "hotel_timeout.fr_september2020.json.gz",
+      "rowId": 163,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 18,
+      "queryTableId": 500,
+      "entityId": 4,
+      "table": "hotel_now-to-berlin.de_september2020.json.gz",
+      "rowId": 58,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 19,
+      "queryTableId": 500,
+      "entityId": 4,
+      "table": "localbusiness_superiorhotels.info_september2020.json.gz",
+      "rowId": 45,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 20,
+      "queryTableId": 500,
+      "entityId": 4,
+      "table": "localbusiness_wellness-hotel.info_september2020.json.gz",
+      "rowId": 941,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 21,
+      "queryTableId": 500,
+      "entityId": 6,
+      "table": "localbusiness_hundehotel.info_september2020.json.gz",
+      "rowId": 557,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 22,
+      "queryTableId": 500,
+      "entityId": 6,
+      "table": "hotel_now-to-duesseldorf.de_september2020.json.gz",
+      "rowId": 57,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 23,
+      "queryTableId": 500,
+      "entityId": 6,
+      "table": "localbusiness_goyellow.de_september2020.json.gz",
+      "rowId": 21818,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 26,
+      "queryTableId": 500,
+      "entityId": 8,
+      "table": "localbusiness_superiorhotels.info_september2020.json.gz",
+      "rowId": 640,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 28,
+      "queryTableId": 500,
+      "entityId": 10,
+      "table": "restaurant_oubruncher.com_september2020.json.gz",
+      "rowId": 512,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 30,
+      "queryTableId": 500,
+      "entityId": 11,
+      "table": "localbusiness_rolstoelvakantie.com_september2020.json.gz",
+      "rowId": 101,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 31,
+      "queryTableId": 500,
+      "entityId": 12,
+      "table": "localbusiness_superiorhotels.info_september2020.json.gz",
+      "rowId": 63,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 32,
+      "queryTableId": 500,
+      "entityId": 24,
+      "table": "restaurant_afternoonteaonline.co.uk_september2020.json.gz",
+      "rowId": 175,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 38,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "localbusiness_hundehotel.info_september2020.json.gz",
+      "rowId": 5,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 41,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "localbusiness_superiorhotels.info_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 43,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "localbusiness_wellness-hotel.info_september2020.json.gz",
+      "rowId": 496,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 3,
+      "queryTableId": 500,
+      "entityId": 0,
+      "table": "hotel_viamichelin.it_september2020.json.gz",
+      "rowId": 274,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 4,
+      "queryTableId": 500,
+      "entityId": 0,
+      "table": "localbusiness_halalroad.com_september2020.json.gz",
+      "rowId": 91,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 0,
+      "queryTableId": 500,
+      "entityId": 0,
+      "table": "restaurant_sluurpy.it_september2020.json.gz",
+      "rowId": 452,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 1,
+      "queryTableId": 500,
+      "entityId": 0,
+      "table": "restaurant_viamichelin.fr_september2020.json.gz",
+      "rowId": 1710,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 2,
+      "queryTableId": 500,
+      "entityId": 0,
+      "table": "restaurant_viamichelin.pt_september2020.json.gz",
+      "rowId": 497,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 4,
+      "queryTableId": 500,
+      "entityId": 1,
+      "table": "restaurant_newtable.com_september2020.json.gz",
+      "rowId": 144,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 6,
+      "queryTableId": 500,
+      "entityId": 1,
+      "table": "restaurant_oubruncher.com_september2020.json.gz",
+      "rowId": 341,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 12,
+      "queryTableId": 500,
+      "entityId": 2,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 563,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 7,
+      "queryTableId": 500,
+      "entityId": 2,
+      "table": "restaurant_bookatable.se_september2020.json.gz",
+      "rowId": 762,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 8,
+      "queryTableId": 500,
+      "entityId": 2,
+      "table": "restaurant_bookatable.co.uk_september2020.json.gz",
+      "rowId": 3577,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 9,
+      "queryTableId": 500,
+      "entityId": 2,
+      "table": "restaurant_bookatable.co.uk_september2020.json.gz",
+      "rowId": 4350,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 10,
+      "queryTableId": 500,
+      "entityId": 2,
+      "table": "restaurant_bookatable.se_september2020.json.gz",
+      "rowId": 2093,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 11,
+      "queryTableId": 500,
+      "entityId": 2,
+      "table": "restaurant_bookatable.co.uk_september2020.json.gz",
+      "rowId": 1377,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 13,
+      "queryTableId": 500,
+      "entityId": 3,
+      "table": "restaurant_bookatable.co.uk_september2020.json.gz",
+      "rowId": 3475,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 14,
+      "queryTableId": 500,
+      "entityId": 3,
+      "table": "restaurant_bookatable.se_september2020.json.gz",
+      "rowId": 123,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 15,
+      "queryTableId": 500,
+      "entityId": 3,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 855,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 17,
+      "queryTableId": 500,
+      "entityId": 3,
+      "table": "restaurant_foodanddrinkguides.co.uk_september2020.json.gz",
+      "rowId": 697,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 16,
+      "queryTableId": 500,
+      "entityId": 3,
+      "table": "restaurant_afternoonteaonline.co.uk_september2020.json.gz",
+      "rowId": 146,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 25,
+      "queryTableId": 500,
+      "entityId": 7,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 927,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 24,
+      "queryTableId": 500,
+      "entityId": 7,
+      "table": "restaurant_major-foodie.com_september2020.json.gz",
+      "rowId": 76,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 27,
+      "queryTableId": 500,
+      "entityId": 9,
+      "table": "restaurant_opentable.com_september2020.json.gz",
+      "rowId": 4716,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 29,
+      "queryTableId": 500,
+      "entityId": 10,
+      "table": "restaurant_newtable.com_september2020.json.gz",
+      "rowId": 5,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 33,
+      "queryTableId": 500,
+      "entityId": 24,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 508,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 36,
+      "queryTableId": 500,
+      "entityId": 24,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 561,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 34,
+      "queryTableId": 500,
+      "entityId": 24,
+      "table": "restaurant_resdiary.com_september2020.json.gz",
+      "rowId": 142,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 35,
+      "queryTableId": 500,
+      "entityId": 24,
+      "table": "restaurant_resdiary.com_september2020.json.gz",
+      "rowId": 433,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 37,
+      "queryTableId": 500,
+      "entityId": 24,
+      "table": "restaurant_resdiary.com_september2020.json.gz",
+      "rowId": 1428,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 40,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "restaurant_quandoo.de_september2020.json.gz",
+      "rowId": 579,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 42,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "restaurant_quandoo.de_september2020.json.gz",
+      "rowId": 289,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 39,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "restaurant_quandoo.de_september2020.json.gz",
+      "rowId": 555,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 44,
+      "queryTableId": 500,
+      "entityId": 25,
+      "table": "restaurant_quandoo.de_september2020.json.gz",
+      "rowId": 2569,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 45,
+      "queryTableId": 500,
+      "entityId": 27,
+      "table": "restaurant_viamichelin.fr_september2020.json.gz",
+      "rowId": 914,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 46,
+      "queryTableId": 500,
+      "entityId": 27,
+      "table": "restaurant_viamichelin.co.uk_september2020.json.gz",
+      "rowId": 67,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 47,
+      "queryTableId": 500,
+      "entityId": 27,
+      "table": "restaurant_viamichelin.pt_september2020.json.gz",
+      "rowId": 338,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 48,
+      "queryTableId": 500,
+      "entityId": 27,
+      "table": "restaurant_major-foodie.com_september2020.json.gz",
+      "rowId": 23,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 53,
+      "queryTableId": 500,
+      "entityId": 35,
+      "table": "hotel_now-to-koeln.de_september2020.json.gz",
+      "rowId": 127,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 51,
+      "queryTableId": 500,
+      "entityId": 35,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 79,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 50,
+      "queryTableId": 500,
+      "entityId": 35,
+      "table": "restaurant_leadingrestaurants.co.uk_september2020.json.gz",
+      "rowId": 872,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 52,
+      "queryTableId": 500,
+      "entityId": 35,
+      "table": "restaurant_afternoonteaonline.co.uk_september2020.json.gz",
+      "rowId": 191,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 49,
+      "queryTableId": 500,
+      "entityId": 35,
+      "table": "restaurant_afternoonteaonline.co.uk_september2020.json.gz",
+      "rowId": 86,
+      "signal": false,
+      "scale": 0,
+      "cornerCase": true,
+      "seenTraining": true
+    }
+  ]
+}

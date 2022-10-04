@@ -1,0 +1,108 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /querytables:
+    get:
+      operationId: "querytables.read"
+      tags:
+        - "QueryTables"
+      summary: "The query table data structure supported by the server application"
+      description: "Read the list of query tables"
+      responses:
+        200:
+          description: "Successful read query table list operation"
+    put:
+      operationId: "querytables.update"
+      summary: "Adds a new query table"
+      consumes:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "query_table"
+        description: "query table object that needs to be updated"
+        schema:
+          $ref: "#/definitions/QueryTable"
+      responses:
+        200:
+          description: OK
+  /querytables/{query_table_id}:
+    get:
+      operationId: "querytables.get_query_table_by_id"
+      tags:
+        - "QueryTables"
+      summary: "The query table data structure supported by the server application"
+      description: "Retrieve a single query table by id"
+      parameters:
+        - name: "query_table_id"
+          in: "path"
+          description: "ID of query table to return"
+          required: true
+          type: "integer"
+          format: "int64"
+      responses:
+        200:
+          description: "Successful read query table operation"
+        404:
+          description: "Query table not found"
+  /querytables/schemaorgclasses:
+    get:
+      operationId: "querytables.get_schema_org_classes_and_categories"
+      tags:
+        - "QueryTables"
+      summary: "Provide a list of all used schema_org_classes"
+      description: "Provide a list of all used schema_org_classes"
+      responses:
+        200:
+          description: "Successful sent all schema org classes"
+        404:
+          description: "No Schema Org classes found"
+  /evidence/findForEntity:
+    get:
+      operationId: "evidences.findForEntity"
+      tags:
+        - "Evidence"
+      summary: "Retrieve evidence for a specific entity of a query table"
+      description: "Retrieve evidence for a specific entity of a query table"
+      parameters:
+        - name: "query_table_id"
+          in: "query"
+          description: "ID of query table"
+          required: true
+          type: "integer"
+          format: "int64"
+        - name: "entity_id"
+          in: "query"
+          description: "ID of entity"
+          required: true
+          type: "integer"
+          format: "int64"
+        - name: "schema_org_class"
+          in: "query"
+          description: "Name of selected schema_org_class"
+          required: true
+          type: "string"
+        - name: "strategy"
+          in: "query"
+          description: "Name of selected retrieval strategy"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Successfully returned evidence for the specified entity"
+        404:
+          description: "Query table not found"
+
+definitions:
+  QueryTable:
+    type: "object"

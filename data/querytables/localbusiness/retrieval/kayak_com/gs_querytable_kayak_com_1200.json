@@ -1,0 +1,526 @@
+{
+  "id": 1200,
+  "type": "retrieval",
+  "assemblingStrategy": "Hotels in Italy",
+  "gtTable": "Kayak Com",
+  "schemaOrgClass": "localbusiness",
+  "contextAttributes": [
+    "addresslocality",
+    "addressregion",
+    "postalcode",
+    "name",
+    "streetaddress"
+  ],
+  "table": [
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Perugia",
+      "addressregion": "Perugia",
+      "entityId": 1,
+      "name": "Best Western Hotel Quattrotorri Perugia",
+      "postalcode": "06132",
+      "streetaddress": "Via Corcianese"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Florence",
+      "addressregion": "Tuscany",
+      "entityId": 6,
+      "name": "Cellai Boutique Hotel",
+      "postalcode": "50129",
+      "streetaddress": "Via 27 Aprile 14, 52r"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Villafranca di Verona",
+      "addressregion": "Veneto",
+      "entityId": 7,
+      "name": "Best Western Plus Hotel Expo",
+      "postalcode": "37069",
+      "streetaddress": "Via Portogallo 1/p"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Gallarate",
+      "addressregion": "Varese",
+      "entityId": 12,
+      "name": "Jet Hotel, Sure Hotel Collection by Best Western",
+      "postalcode": "21013",
+      "streetaddress": "Via Tiro a Segno, 22"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Bergamo",
+      "addressregion": "Bergamo",
+      "entityId": 14,
+      "name": "Best Western Hotel Cappello D'Oro",
+      "postalcode": "24121",
+      "streetaddress": "12 Viale Papa Giovanni XXIII"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Venice",
+      "addressregion": "Veneto",
+      "entityId": 15,
+      "name": "Courtyard by Marriott Venice Airport",
+      "postalcode": "30173",
+      "streetaddress": "Via Triestina 170"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Venetia",
+      "addressregion": "Veneto",
+      "entityId": 16,
+      "name": "Best Western Plus Quid Hotel Venice Mestre",
+      "postalcode": "30174",
+      "streetaddress": "Via Terraglio 15"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Nola",
+      "addressregion": "Napoli",
+      "entityId": 18,
+      "name": "Best Western Hotel Ferrari",
+      "postalcode": "80030",
+      "streetaddress": "Via Nazionale, 349"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "Scena",
+      "addressregion": "Provincia aut\u00c3\u00b3noma de Bolzano",
+      "entityId": 45,
+      "name": "Schenna Resort",
+      "postalcode": "39017",
+      "streetaddress": "Alte Strasse 14"
+    },
+    {
+      "addresscountry": "IT",
+      "addresslocality": "San Candido",
+      "addressregion": "Etel\u00c3\u00a4-Tiroli",
+      "entityId": 46,
+      "name": "Post Alpina - Family Mountain Chalets",
+      "postalcode": "39038",
+      "streetaddress": "Helmweg 9"
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 0,
+      "queryTableId": 1200,
+      "entityId": 1,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 433,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 1,
+      "queryTableId": 1200,
+      "entityId": 1,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 609,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 2,
+      "queryTableId": 1200,
+      "entityId": 1,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 149,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 3,
+      "queryTableId": 1200,
+      "entityId": 1,
+      "table": "hotel_bestwestern.fr_september2020.json.gz",
+      "rowId": 1864,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 4,
+      "queryTableId": 1200,
+      "entityId": 1,
+      "table": "hotel_hotelquattrotorriperugia.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 5,
+      "queryTableId": 1200,
+      "entityId": 6,
+      "table": "hotel_chateauxhotels.it_september2020.json.gz",
+      "rowId": 251,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 6,
+      "queryTableId": 1200,
+      "entityId": 6,
+      "table": "hotel_chateauxhotels.com_september2020.json.gz",
+      "rowId": 38,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 7,
+      "queryTableId": 1200,
+      "entityId": 6,
+      "table": "hotel_chateauxhotels.co.uk_september2020.json.gz",
+      "rowId": 140,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 8,
+      "queryTableId": 1200,
+      "entityId": 7,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 45,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 9,
+      "queryTableId": 1200,
+      "entityId": 7,
+      "table": "hotel_bestwestern.fr_september2020.json.gz",
+      "rowId": 1858,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 10,
+      "queryTableId": 1200,
+      "entityId": 7,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 671,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 11,
+      "queryTableId": 1200,
+      "entityId": 12,
+      "table": "hotel_bestwestern.fr_september2020.json.gz",
+      "rowId": 2094,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 12,
+      "queryTableId": 1200,
+      "entityId": 12,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 707,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 13,
+      "queryTableId": 1200,
+      "entityId": 12,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 488,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 14,
+      "queryTableId": 1200,
+      "entityId": 14,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 682,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 15,
+      "queryTableId": 1200,
+      "entityId": 14,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 352,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 16,
+      "queryTableId": 1200,
+      "entityId": 14,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 254,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 17,
+      "queryTableId": 1200,
+      "entityId": 14,
+      "table": "hotel_bestwestern.fr_september2020.json.gz",
+      "rowId": 5819,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 18,
+      "queryTableId": 1200,
+      "entityId": 15,
+      "table": "hotel_marriott.de_september2020.json.gz",
+      "rowId": 1858,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 19,
+      "queryTableId": 1200,
+      "entityId": 15,
+      "table": "hotel_marriott.co.uk_september2020.json.gz",
+      "rowId": 1354,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 20,
+      "queryTableId": 1200,
+      "entityId": 15,
+      "table": "hotel_marriott.it_september2020.json.gz",
+      "rowId": 593,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 21,
+      "queryTableId": 1200,
+      "entityId": 15,
+      "table": "hotel_marriott.fr_september2020.json.gz",
+      "rowId": 1460,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 22,
+      "queryTableId": 1200,
+      "entityId": 16,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 24,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 23,
+      "queryTableId": 1200,
+      "entityId": 16,
+      "table": "hotel_bestwestern.fr_september2020.json.gz",
+      "rowId": 1204,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 24,
+      "queryTableId": 1200,
+      "entityId": 16,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 509,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 25,
+      "queryTableId": 1200,
+      "entityId": 18,
+      "table": "hotel_hotelferrari.it_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 26,
+      "queryTableId": 1200,
+      "entityId": 18,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 539,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 27,
+      "queryTableId": 1200,
+      "entityId": 18,
+      "table": "hotel_bestwestern.fr_september2020.json.gz",
+      "rowId": 7943,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 28,
+      "queryTableId": 1200,
+      "entityId": 18,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 558,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 29,
+      "queryTableId": 1200,
+      "entityId": 18,
+      "table": "hotel_bestwestern.it_september2020.json.gz",
+      "rowId": 637,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 30,
+      "queryTableId": 1200,
+      "entityId": 45,
+      "table": "localbusiness_schennaresort.com_september2020.json.gz",
+      "rowId": 1,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 32,
+      "queryTableId": 1200,
+      "entityId": 45,
+      "table": "localbusiness_schennaresort.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 33,
+      "queryTableId": 1200,
+      "entityId": 45,
+      "table": "localbusiness_schennaresort.com_september2020.json.gz",
+      "rowId": 2,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 34,
+      "queryTableId": 1200,
+      "entityId": 46,
+      "table": "hotel_bookingsuedtirol.com_september2020.json.gz",
+      "rowId": 340,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 35,
+      "queryTableId": 1200,
+      "entityId": 46,
+      "table": "localbusiness_skigebiete.info_september2020.json.gz",
+      "rowId": 86,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": true,
+      "seenTraining": true
+    },
+    {
+      "id": 36,
+      "queryTableId": 1200,
+      "entityId": 46,
+      "table": "localbusiness_wellness-hotel.info_september2020.json.gz",
+      "rowId": 26,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 37,
+      "queryTableId": 1200,
+      "entityId": 46,
+      "table": "hotel_kinderhotel.info_september2020.json.gz",
+      "rowId": 362,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 31,
+      "queryTableId": 1200,
+      "entityId": 45,
+      "table": "hotel_bookingsuedtirol.com_september2020.json.gz",
+      "rowId": 451,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": true,
+      "seenTraining": false
+    }
+  ]
+}

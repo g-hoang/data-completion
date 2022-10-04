@@ -1,0 +1,229 @@
+{
+  "id": 1050,
+  "type": "retrieval",
+  "assemblingStrategy": "Collection of entities from restaurantguru.com",
+  "gtTable": "Restaurantguru Com",
+  "schemaOrgClass": "localbusiness",
+  "contextAttributes": [
+    "addresslocality",
+    "addressregion",
+    "addresscountry",
+    "postalcode",
+    "name",
+    "streetaddress"
+  ],
+  "table": [
+    {
+      "addresscountry": "ES",
+      "addresslocality": "Barcelona",
+      "addressregion": "Catalonia",
+      "entityId": 0,
+      "name": "Bananas - 93 4884 660",
+      "postalcode": "08003",
+      "streetaddress": "C /Fusina, 7"
+    },
+    {
+      "addresscountry": "BE",
+      "addresslocality": "Kortrijk",
+      "addressregion": "Flanders",
+      "entityId": 1,
+      "name": "Messeyne",
+      "postalcode": "8500",
+      "streetaddress": "Groeningestraat 17"
+    },
+    {
+      "addresscountry": "GR",
+      "addresslocality": "Thera",
+      "addressregion": "Egeo",
+      "entityId": 2,
+      "name": "Ginger Sushi Lounge",
+      "postalcode": "847 00",
+      "streetaddress": "St. Gerasimos Square"
+    },
+    {
+      "addresscountry": "UK",
+      "addresslocality": "London",
+      "addressregion": "England",
+      "entityId": 3,
+      "name": "Eve bar",
+      "postalcode": "WC2E 7HG",
+      "streetaddress": "34-35 Southampton Street"
+    },
+    {
+      "addresscountry": "US",
+      "addresslocality": "American Canyon",
+      "addressregion": "California",
+      "entityId": 4,
+      "name": "Eagle Vines Bar And Grill",
+      "postalcode": "94503-5600",
+      "streetaddress": "580 S Kelly Rd"
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 0,
+      "queryTableId": 1050,
+      "entityId": 0,
+      "table": "restaurant_restaurantguru.com_september2020.json.gz",
+      "rowId": 384,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": null,
+      "seenTraining": false
+    },
+    {
+      "id": 4,
+      "queryTableId": 1050,
+      "entityId": 1,
+      "table": "restaurant_restaurantguru.com_september2020.json.gz",
+      "rowId": 1369,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": null,
+      "seenTraining": true
+    },
+    {
+      "id": 8,
+      "queryTableId": 1050,
+      "entityId": 2,
+      "table": "restaurant_restaurantguru.com_september2020.json.gz",
+      "rowId": 2074,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": null,
+      "seenTraining": false
+    },
+    {
+      "id": 12,
+      "queryTableId": 1050,
+      "entityId": 3,
+      "table": "restaurant_restaurantguru.com_september2020.json.gz",
+      "rowId": 840,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": null,
+      "seenTraining": true
+    },
+    {
+      "id": 16,
+      "queryTableId": 1050,
+      "entityId": 4,
+      "table": "restaurant_restaurantguru.com_september2020.json.gz",
+      "rowId": 1391,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": null,
+      "seenTraining": false
+    },
+    {
+      "id": 1,
+      "queryTableId": 1050,
+      "entityId": 0,
+      "table": "restaurant_salir.com_september2020.json.gz",
+      "rowId": 199,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 3,
+      "queryTableId": 1050,
+      "entityId": 0,
+      "table": "localbusiness_happyholidaytime.com_september2020.json.gz",
+      "rowId": 69,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 7,
+      "queryTableId": 1050,
+      "entityId": 1,
+      "table": "localbusiness_resengo.com_september2020.json.gz",
+      "rowId": 183,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 5,
+      "queryTableId": 1050,
+      "entityId": 1,
+      "table": "hotel_toerisme-leiestreek.be_september2020.json.gz",
+      "rowId": 9,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 9,
+      "queryTableId": 1050,
+      "entityId": 2,
+      "table": "localbusiness_vegefied.com_september2020.json.gz",
+      "rowId": 1051,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 10,
+      "queryTableId": 1050,
+      "entityId": 2,
+      "table": "localbusiness_sushipointer.com_september2020.json.gz",
+      "rowId": 416,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 15,
+      "queryTableId": 1050,
+      "entityId": 3,
+      "table": "restaurant_quandoo.co.uk_september2020.json.gz",
+      "rowId": 2835,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 13,
+      "queryTableId": 1050,
+      "entityId": 3,
+      "table": "localbusiness_alltrippers.com_september2020.json.gz",
+      "rowId": 368,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 18,
+      "queryTableId": 1050,
+      "entityId": 4,
+      "table": "restaurant_visitnapavalley.com_september2020.json.gz",
+      "rowId": 173,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 19,
+      "queryTableId": 1050,
+      "entityId": 4,
+      "table": "localbusiness_golfadvisor.com_september2020.json.gz",
+      "rowId": 3505,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+[{
+    "id": 11,
+    "queryTableId": 11,
+    "entityId": 0,
+    "value": "David Yates",
+    "table": "Movie_imdb.com_September2020",
+    "rowId": 155,
+    "attribute": "director.name",
+    "context": {"row_id":155,
+      "name":"Harry Potter and the Deathly Hallows: Part 1",
+      "description":"Harry Potter and the Deathly Hallows: Part 1 is a movie starring Daniel Radcliffe, Emma Watson, and Rupert Grint. As Harry (Daniel Radcliffe), Ron (Rupert Grint), and Hermione (Emma Watson) race against time and evil to destroy the...",
+      "director":{"name":"David Yates"},
+      "aggregaterating":{"ratingvalue":"7.7","bestrating":"10.0","worstrating":"1.0","ratingcount":"464525"},
+      "duration":"PT2H26M",
+      "actor":[{"name":"Emma Watson"},{"name":"Rupert Grint"},{"name":"Bill Nighy"},{"name":"Daniel Radcliffe"}],
+      "datepublished":"2010-11-17",
+      "contentrating":"PG-13",
+      "trailer":{"description":"Voldemort's power is growing stronger. He now has control over the Ministry of Magic and Hogwarts. Harry, Ron, and Hermione decide to finish Dumbledore's work and find the rest of the Horcruxes to defeat the Dark Lord. But little hope remains for the Trio, and the rest of the Wizarding World, so everything they do must go as planned.","name":"Harry Potter and the Deathly Hallows: Part 1 - TV Spot #2","uploaddate":"2010-10-21T18:00:59Z"},
+      "keywords":"based on young adult novel,harry potter movie franchise,cgi character in a live action movie,magic,friend",
+      "review":{"datecreated":"2010-11-16","inlanguage":"English","name":"Dark and thrilling, this prelude packs genuine suspense, heart and the occasional exhilarating action to deliver an engrossing magical spectacle","reviewbody":"A sullen Minister of Magic Rufus Scrimgeour (Bill Nighy) sets the mood for this seventh and penultimate instalment of Harry Potter. \\\"These are dark times, there's no denying,\\\" he intones gravely, pointing out the grim state of affairs facing the nation- murders, disappearances and raids- but reassuring the public, as any politician would, that his Ministry has it all under control. Of course, he is only bluffing, and it doesn't take long before the palpable sense of doom and despair convinces you otherwise. Welcome back to the magical world of Harry Potter, one that began with wonder and joy, but has since become shrouded in death and darkness. Still visibly distraught from the death of his mentor Professor Albus Dumbledore, Harry is now tasked to continue with the mission of the late Dumbledore- to find and destroy the remaining Horcruxes (accursed objects containing fragments of Voldemort's soul). It doesn't get any easier, since Voldemort is nearing the height of his powers, and his bidders have infiltrated the bureaucracy to paint Harry as a wanted criminal. There are fewer and fewer allies around- even those within the Order of the Phoenix may have since betrayed their ranks- and the first half"},
+      "creator":[{"name":"Steve Kloves"},{"name":"J.K. Rowling"}],
+      "page_url":"https:\/\/www.imdb.com\/title\/tt0926084\/?ref_=nv_sr_6"}
+  },
+  {
+    "id": 12,
+    "queryTableId": 11,
+    "entityId": 0,
+    "value": "David Yates",
+    "table": "Movie_imdb.com_September2020",
+    "rowId": 2605,
+    "attribute": "director.name",
+    "context": {"values": "Add some context information here!"}
+  },
+  {
+    "id": 13,
+    "queryTableId": 11,
+    "entityId": 0,
+    "value": "David Yates",
+    "table": "Movie_imdb.com_September2020",
+    "rowId": 14140,
+    "attribute": "director.name",
+    "context": {"values": "Add some context information here!"}
+  },
+  {
+    "id": 14,
+    "queryTableId": 11,
+    "entityId": 0,
+    "value": "David Yates",
+    "table": "Movie_imdb.com_September2020",
+    "rowId": 18271,
+    "attribute": "director.name",
+    "context": {"values": "Add some context information here!"}
+  },
+  {
+    "id": 15,
+    "queryTableId": 11,
+    "entityId": 0,
+    "value": "David Yates",
+    "table": "Movie_netflix.com_September2020",
+    "rowId": 5696,
+    "attribute": "director.name",
+    "context": {"row_id":5696,"name":"Harry Potter and the Deathly Hallows: Part I","description":"The first installment of the two-part conclusion to the Harry Potter series finds the bespectacled wizard walking away from his last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort&#39;s bid for immortality.","director":{"name":"David Yates"},"datecreated":"2010","aggregaterating":{"reviewcount":"1603354","ratingvalue":"4.227"},"duration":"PT2H26M","actor":[{"name":"Emma Watson"},{"name":"Richard Griffiths"},{"name":"David Thewlis"},{"name":"Brendan Gleeson"},{"name":"Rhys Ifans"},{"name":"Alan Rickman"},{"name":"Imelda Staunton"},{"name":"Toby Jones"},{"name":"Warwick Davis"},{"name":"Helena Bonham Carter"},{"name":"Jason Isaacs"},{"name":"Rupert Grint"},{"name":"Bill Nighy"},{"name":"Tom Felton"},{"name":"Michael Gambon"},{"name":"Fiona Shaw"},{"name":"John Hurt"},{"name":"Daniel Radcliffe"},{"name":"Robbie Coltrane"},{"name":"Timothy Spall"},{"name":"Ralph Fiennes"}],"genre":"Children &amp; Family","contentrating":"PG-13","inlanguage":[{"name":"English: Dolby Digital 5.1"},{"name":"Spanish (Neutral): Dolby Digital 5.1"}],"subtitlelanguage":{"name":"English SDH"},"page_url":"https:\/\/dvd.netflix.com\/Movie\/Harry-Potter-and-the-Deathly-Hallows-Part-I\/70115887?dsrc=BLOG"}
+  }
+]

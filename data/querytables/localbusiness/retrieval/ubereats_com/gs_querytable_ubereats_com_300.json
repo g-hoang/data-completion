@@ -1,0 +1,287 @@
+{
+  "id": 300,
+  "type": "retrieval",
+  "assemblingStrategy": "French Restaurants",
+  "gtTable": "Ubereats Com",
+  "schemaOrgClass": "localbusiness",
+  "contextAttributes": [
+    "addresslocality",
+    "postalcode",
+    "name",
+    "postalcode",
+    "streetaddress"
+  ],
+  "table": [
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Cergy",
+      "entityId": 0,
+      "name": "Le Factory - Cergy",
+      "postalcode": "95800",
+      "streetaddress": "14 Cours des Merveilles"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Tours",
+      "entityId": 1,
+      "name": "La Scaleta - Tours centre",
+      "postalcode": "37000",
+      "streetaddress": "32 Avenue de Grammont"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Paris",
+      "entityId": 2,
+      "name": "Caf\u00c3\u00a9 Mareva",
+      "postalcode": "75011",
+      "streetaddress": "38 Rue du Faubourg du Temple"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "\u00c3\u2030ragny",
+      "entityId": 3,
+      "name": "L\u00c3\u00a9on de Bruxelles - Eragny Sur Oise",
+      "postalcode": "95610",
+      "streetaddress": "1 Rue des Erables"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Nancy",
+      "entityId": 4,
+      "name": "Line Sushi - Nancy",
+      "postalcode": "54000",
+      "streetaddress": "9 Rue des 4 \u00c3\u2030glises"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Rouen",
+      "entityId": 5,
+      "name": "La Place",
+      "postalcode": "76000",
+      "streetaddress": "26 Place du Vieux March\u00c3\u00a9"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Paris",
+      "entityId": 6,
+      "name": "Foyer Vietnam - Cantine Associative",
+      "postalcode": "75005",
+      "streetaddress": "80 rue Monge"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Annecy",
+      "entityId": 7,
+      "name": "Le Semper Fi",
+      "postalcode": "74000",
+      "streetaddress": "13 Rue Royale, Passage des Sorbiers"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Laxou",
+      "entityId": 8,
+      "name": "Grill Courtepaille - Nancy Laxou",
+      "postalcode": "54520",
+      "streetaddress": "Courtepaille"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Nancy",
+      "entityId": 9,
+      "name": "Emilie Sushi Bar",
+      "postalcode": "54000",
+      "streetaddress": "36, rue Emile Gebhart"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Grenoble",
+      "entityId": 10,
+      "name": "Burger Fernand",
+      "postalcode": "38000",
+      "streetaddress": "124 Cours Berriat"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Le Mans",
+      "entityId": 14,
+      "name": "Grill Courtepaille - Le Mans",
+      "postalcode": "72650",
+      "streetaddress": "Porte de l'Oc\u00c3\u00a9ane"
+    },
+    {
+      "addresscountry": "FR",
+      "addresslocality": "Nancy",
+      "entityId": 15,
+      "name": "Monsieur Fuji Sushi",
+      "postalcode": "54000",
+      "streetaddress": "41 Rue Saint-Dizier"
+    }
+  ],
+  "verifiedEvidences": [
+    {
+      "id": 0,
+      "queryTableId": 300,
+      "entityId": 0,
+      "table": "restaurant_lefactory-cergy.com_september2020.json.gz",
+      "rowId": 0,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 1,
+      "queryTableId": 300,
+      "entityId": 1,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 841,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 2,
+      "queryTableId": 300,
+      "entityId": 2,
+      "table": "restaurant_oubruncher.com_september2020.json.gz",
+      "rowId": 788,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 3,
+      "queryTableId": 300,
+      "entityId": 2,
+      "table": "restaurant_timeout.fr_september2020.json.gz",
+      "rowId": 497,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 4,
+      "queryTableId": 300,
+      "entityId": 3,
+      "table": "restaurant_leon-de-bruxelles.fr_september2020.json.gz",
+      "rowId": 45,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 5,
+      "queryTableId": 300,
+      "entityId": 3,
+      "table": "restaurant_leon-de-bruxelles.fr_september2020.json.gz",
+      "rowId": 30,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": true,
+      "seenTraining": false
+    },
+    {
+      "id": 6,
+      "queryTableId": 300,
+      "entityId": 4,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 2467,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 7,
+      "queryTableId": 300,
+      "entityId": 5,
+      "table": "restaurant_viamichelin.at_september2020.json.gz",
+      "rowId": 99,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 8,
+      "queryTableId": 300,
+      "entityId": 6,
+      "table": "restaurant_timeout.com_september2020.json.gz",
+      "rowId": 1163,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 9,
+      "queryTableId": 300,
+      "entityId": 7,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 579,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 10,
+      "queryTableId": 300,
+      "entityId": 8,
+      "table": "restaurant_courtepaille.com_september2020.json.gz",
+      "rowId": 109,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 11,
+      "queryTableId": 300,
+      "entityId": 9,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 445,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 12,
+      "queryTableId": 300,
+      "entityId": 10,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 3219,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": false,
+      "seenTraining": false
+    },
+    {
+      "id": 13,
+      "queryTableId": 300,
+      "entityId": 14,
+      "table": "restaurant_courtepaille.com_september2020.json.gz",
+      "rowId": 32,
+      "signal": true,
+      "scale": 1,
+      "cornerCase": false,
+      "seenTraining": true
+    },
+    {
+      "id": 14,
+      "queryTableId": 300,
+      "entityId": 15,
+      "table": "restaurant_du-jour.fr_september2020.json.gz",
+      "rowId": 3361,
+      "signal": true,
+      "scale": 3,
+      "cornerCase": true,
+      "seenTraining": true
+    }
+  ]
+}
