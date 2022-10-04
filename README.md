@@ -20,10 +20,10 @@ Every entity of the table corpus is index as a separate entity into a single ES 
 
 ### Generating training data for seq2seq models
 Please give your own configuration in the config files in `./scripts/configs/` and run the following script:
-`es_instance`: Address of VMware running Elastic Search
-`schema_org_class`: the schema.org class of the table corpus
-`training_data_type` can be `linear` or `qa` (question answering)
-`context-attributes` and `target-attributes` are the attributes of the table that you want to use as context and target attributes respectively.
+- `es_instance`: Address of VMware running Elastic Search
+- `schema_org_class`: the schema.org class of the table corpus
+- `training_data_type` can be `linear` or `qa` (question answering)
+- `context-attributes` and `target-attributes` are the attributes of the table that you want to use as context and target attributes respectively.
 
 ```
 ./scripts/generate_training_data.sh
@@ -35,17 +35,19 @@ After running the above script, you will find the training data in the following
 
 Please give further configuration in the bash file `./scripts/finetune_seq2seq.sh`. Important parameters are:
 
-`$OUTPUT` is the directory here for storing checkpoints
-`$TRAIN_FILE` is the training data file that are generated in the previous step.
+- `$OUTPUT` is the directory here for storing checkpoints
+- `$TRAIN_FILE` is the training data file that are generated in the previous step.
 
 ### Run experiment (predicting missing values)
 
-Before running experiment on seq2seq models, please set up a directory containing 3 required files for seq2seq models: `config.json`, `pytorch_model.bin` and `tokenizer.json`.
+- Before running experiment on seq2seq models, please set up a directory containing 3 required files for seq2seq models: `config.json`, `pytorch_model.bin` and `tokenizer.json`.
 
-A recommended directory: `./data/models/closed-book/{schema_org_class}/{training_data_type}/`
+- A recommended directory: `./data/models/closed-book/{schema_org_class}/{training_data_type}/`
 
-For running experiment, please run the script `./scripts/run_experiment.sh` with the equivalent config file located inside `./scripts/configs/` directory. The `model_name` parameter should be set as a list of path to directories containing the models
+- For running experiment, please run the script `./scripts/run_experiment.sh` with the equivalent config file located inside `./scripts/configs/` directory. The `model_name` parameter should be set as a list of path to directories containing the models
 
-The default setting for the config file will run all query tables inside schema_org_class
-If you want to run a specific query table (e.g., running experiment to compare performance with TURL), please specify the `path-to-query-table` parameter in the config file as the query table's location in string.
-The query table for comparing with TURL is located at: `./data/querytables/movie/gs_querytable_turl_director_500.json`
+- The default setting for the config file will run all query tables inside schema_org_class. If you want to run a specific query table (e.g., running experiment to compare performance with TURL), please specify the `path-to-query-table` parameter in the config file as the query table's location in string.
+
+- The query table for comparing with TURL is located at: `./data/querytables/movie/gs_querytable_turl_director_500.json`
+
+- Checkpoint are available [here](https://stneuedu-my.sharepoint.com/:f:/g/personal/11120956_st_neu_edu_vn/EhnwSet9lb5IvWbuU_t2spQBCvC3pgoWKd5BtzXfkZJwOQ?e=IXhgZ7)
